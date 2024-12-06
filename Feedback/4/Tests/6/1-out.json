@@ -1,0 +1,9 @@
+{
+    "active":{
+        "score":5,
+        "wallet":["yellow","blue","blue","green","red","red","red","red","red","red","red","red","red","red","red","red"]
+    },
+    "bank":[],
+    "cards":[],
+    "scores":[0,11,6,4,20]
+}

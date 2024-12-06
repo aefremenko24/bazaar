@@ -1,0 +1,13 @@
+{
+	"bank": [],
+
+	"cards": [
+{"pebbles": ["yellow", "yellow", "yellow", "blue", "white"], "face?": true},
+{"pebbles": ["red", "white", "red", "white", "red"], "face?": true},
+{"pebbles": ["red", "white", "white", "blue", "blue"], "face?": false},
+{"pebbles": ["red", "red", "red", "blue", "blue"], "face?": false}],
+
+	"active": {"wallet" : ["red", "blue", "green", "white", "yellow"], "score": 18},
+
+	"scores": [2, 0]
+}

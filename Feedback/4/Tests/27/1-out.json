@@ -1,0 +1,21 @@
+{
+  "bank" : [ "blue", "blue", "blue", "blue", "green", "green", "green", "green", "green", "green", "red", "red", "red", "red", "red", "red", "red", "red", "red", "white", "white", "white", "white", "white", "white", "white", "white", "white", "white", "white", "white", "white", "white", "yellow", "yellow", "yellow", "yellow", "yellow", "yellow", "yellow", "yellow", "yellow", "yellow", "yellow" ],
+  "cards" : [ {
+    "pebbles" : [ "blue", "blue", "blue", "red", "yellow" ],
+    "face?" : false
+  }, {
+    "pebbles" : [ "red", "red", "red", "red", "red" ],
+    "face?" : false
+  }, {
+    "pebbles" : [ "blue", "green", "white", "white", "yellow" ],
+    "face?" : false
+  }, {
+    "pebbles" : [ "blue", "red", "red", "yellow", "yellow" ],
+    "face?" : false
+  } ],
+  "scores" : [ 1, 6 ],
+  "active" : {
+    "score" : 19,
+    "wallet" : [ "blue", "blue", "blue", "green", "red", "red", "red", "red", "red", "yellow" ]
+  }
+}

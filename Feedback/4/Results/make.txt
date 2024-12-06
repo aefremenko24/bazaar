@@ -1,0 +1,4 @@
+Setting up the Python environment...
+pip install -r requirements.txt --user
+make: pip: Command not found
+make: *** [Makefile:8: setup] Error 127

@@ -1,0 +1,7 @@
+{"path":"/","subs":["a","b", "c"]}
+{"path":"/b/bfile","size":10}
+{"path": "/c", "subs": ["cdir"]}
+"query"
+{"path": "/c/cdir", "subs": ["cdirsub"]}
+"query"
+"quit"

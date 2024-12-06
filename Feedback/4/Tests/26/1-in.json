@@ -1,0 +1,268 @@
+{
+  "bank": [
+    "green",
+    "red",
+    "blue",
+    "yellow",
+    "blue",
+    "red",
+    "yellow"
+  ],
+  "visibles": [
+    {
+      "pebbles": [
+        "green",
+        "blue",
+        "green",
+        "blue",
+        "green"
+      ],
+      "face?": false
+    },
+    {
+      "pebbles": [
+        "yellow",
+        "yellow",
+        "yellow",
+        "blue",
+        "blue"
+      ],
+      "face?": false
+    },
+    {
+      "pebbles": [
+        "blue",
+        "red",
+        "green",
+        "red",
+        "red"
+      ],
+      "face?": true
+    },
+    {
+      "pebbles": [
+        "yellow",
+        "red",
+        "red",
+        "red",
+        "white"
+      ],
+      "face?": true
+    }
+  ],
+  "cards": [
+    {
+      "pebbles": [
+        "red",
+        "red",
+        "red",
+        "red",
+        "white"
+      ],
+      "face?": false
+    },
+    {
+      "pebbles": [
+        "white",
+        "blue",
+        "green",
+        "blue",
+        "yellow"
+      ],
+      "face?": true
+    },
+    {
+      "pebbles": [
+        "green",
+        "green",
+        "red",
+        "blue",
+        "blue"
+      ],
+      "face?": true
+    },
+    {
+      "pebbles": [
+        "blue",
+        "white",
+        "green",
+        "green",
+        "white"
+      ],
+      "face?": true
+    },
+    {
+      "pebbles": [
+        "yellow",
+        "yellow",
+        "green",
+        "blue",
+        "white"
+      ],
+      "face?": false
+    },
+    {
+      "pebbles": [
+        "red",
+        "white",
+        "red",
+        "blue",
+        "white"
+      ],
+      "face?": false
+    },
+    {
+      "pebbles": [
+        "red",
+        "yellow",
+        "white",
+        "white",
+        "yellow"
+      ],
+      "face?": false
+    },
+    {
+      "pebbles": [
+        "red",
+        "yellow",
+        "yellow",
+        "blue",
+        "yellow"
+      ],
+      "face?": true
+    },
+    {
+      "pebbles": [
+        "red",
+        "yellow",
+        "yellow",
+        "yellow",
+        "white"
+      ],
+      "face?": false
+    },
+    {
+      "pebbles": [
+        "red",
+        "yellow",
+        "red",
+        "blue",
+        "white"
+      ],
+      "face?": true
+    },
+    {
+      "pebbles": [
+        "red",
+        "yellow",
+        "blue",
+        "blue",
+        "white"
+      ],
+      "face?": false
+    },
+    {
+      "pebbles": [
+        "white",
+        "yellow",
+        "red",
+        "blue",
+        "white"
+      ],
+      "face?": true
+    },
+    {
+      "pebbles": [
+        "red",
+        "blue",
+        "red",
+        "blue",
+        "white"
+      ],
+      "face?": true
+    },
+    {
+      "pebbles": [
+        "red",
+        "yellow",
+        "red",
+        "blue",
+        "white"
+      ],
+      "face?": false
+    },
+    {
+      "pebbles": [
+        "red",
+        "yellow",
+        "red",
+        "white",
+        "white"
+      ],
+      "face?": true
+    },
+    {
+      "pebbles": [
+        "red",
+        "yellow",
+        "green",
+        "blue",
+        "white"
+      ],
+      "face?": true
+    }
+  ],
+  "players": [
+    {
+      "wallet": [
+        "white",
+        "red"
+      ],
+      "score": 15
+    },
+    {
+      "wallet": [
+        "green",
+        "white",
+        "yellow",
+        "green"
+      ],
+      "score": 16
+    },
+    {
+      "wallet": [
+        "red",
+        "blue",
+        "white",
+        "white",
+        "white",
+        "blue"
+      ],
+      "score": 17
+    },
+    {
+      "wallet": [
+        "blue",
+        "blue",
+        "green"
+      ],
+      "score": 18
+    },
+    {
+      "wallet": [
+        "yellow",
+        "yellow",
+        "blue"
+      ],
+      "score": 19
+    },
+    {
+      "wallet": [
+        "white",
+        "blue",
+        "yellow"
+      ],
+      "score": 20
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+(testing /course/cs4500f24/tas/camoy/repos/educational-lizards/./6/xrules)
+(testing /home/camoy/24SwDev/Code/6/Tests/0-in.json /home/camoy/24SwDev/Code/6/Tests/0-out.json)
+Traceback (most recent call last):
+  File "/course/cs4500f24/tas/camoy/repos/educational-lizards/./6/xrules", line 11, in <module>
+    from Bazaar.Common.turn_state import TurnState
+  File "/course/cs4500f24/tas/camoy/repos/educational-lizards/Bazaar/Common/turn_state.py", line 5, in <module>
+    from Bazaar.Referee.player_state import PlayerState
+  File "/course/cs4500f24/tas/camoy/repos/educational-lizards/Bazaar/Referee/player_state.py", line 7, in <module>
+    from Bazaar.Player.mechanism import Mechanism
+  File "/course/cs4500f24/tas/camoy/repos/educational-lizards/Bazaar/Player/mechanism.py", line 8, in <module>
+    from Bazaar.Common.turn_state import TurnState
+ImportError: cannot import name 'TurnState' from partially initialized module 'Bazaar.Common.turn_state' (most likely due to a circular import) (/course/cs4500f24/tas/camoy/repos/educational-lizards/Bazaar/Common/turn_state.py)
+---------------------------------
+(*** score 0)
+(*** on)
+'(((("blue" "blue" "blue" "blue") ("red" "green")))
+  ((("red" "green") ("blue" "blue" "blue" "blue")))
+  #hasheq((active . #hasheq((score . 9) (wallet . ("red" "green"))))
+          (bank . ("red"))
+          (cards . ())
+          (scores . ())))
+(*** expected)
+'(#f)
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+(testing /home/camoy/24SwDev/Code/6/Tests/1-in.json /home/camoy/24SwDev/Code/6/Tests/1-out.json)
+Traceback (most recent call last):
+  File "/course/cs4500f24/tas/camoy/repos/educational-lizards/./6/xrules", line 11, in <module>
+    from Bazaar.Common.turn_state import TurnState
+  File "/course/cs4500f24/tas/camoy/repos/educational-lizards/Bazaar/Common/turn_state.py", line 5, in <module>
+    from Bazaar.Referee.player_state import PlayerState
+  File "/course/cs4500f24/tas/camoy/repos/educational-lizards/Bazaar/Referee/player_state.py", line 7, in <module>
+    from Bazaar.Player.mechanism import Mechanism
+  File "/course/cs4500f24/tas/camoy/repos/educational-lizards/Bazaar/Player/mechanism.py", line 8, in <module>
+    from Bazaar.Common.turn_state import TurnState
+ImportError: cannot import name 'TurnState' from partially initialized module 'Bazaar.Common.turn_state' (most likely due to a circular import) (/course/cs4500f24/tas/camoy/repos/educational-lizards/Bazaar/Common/turn_state.py)
+---------------------------------
+(*** score 0)
+(*** on)
+'(((("blue" "blue" "blue" "blue") ("red" "green")))
+  ((("red") ("green" "green" "green" "green")))
+  #hasheq((active . #hasheq((score . 9) (wallet . ("red"))))
+          (bank . ("red"))
+          (cards . ())
+          (scores . ())))
+(*** expected)
+'(#f)
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+(testing /home/camoy/24SwDev/Code/6/Tests/2-in.json /home/camoy/24SwDev/Code/6/Tests/2-out.json)
+Traceback (most recent call last):
+  File "/course/cs4500f24/tas/camoy/repos/educational-lizards/./6/xrules", line 11, in <module>
+    from Bazaar.Common.turn_state import TurnState
+  File "/course/cs4500f24/tas/camoy/repos/educational-lizards/Bazaar/Common/turn_state.py", line 5, in <module>
+    from Bazaar.Referee.player_state import PlayerState
+  File "/course/cs4500f24/tas/camoy/repos/educational-lizards/Bazaar/Referee/player_state.py", line 7, in <module>
+    from Bazaar.Player.mechanism import Mechanism
+  File "/course/cs4500f24/tas/camoy/repos/educational-lizards/Bazaar/Player/mechanism.py", line 8, in <module>
+    from Bazaar.Common.turn_state import TurnState
+ImportError: cannot import name 'TurnState' from partially initialized module 'Bazaar.Common.turn_state' (most likely due to a circular import) (/course/cs4500f24/tas/camoy/repos/educational-lizards/Bazaar/Common/turn_state.py)
+---------------------------------
+(*** score 0)
+(*** on)
+'(((("blue" "blue" "blue" "blue") ("red" "green"))
+   (("red") ("green" "green" "green" "green")))
+  ((("red") ("green" "green" "green" "green"))
+   (("red" "green") ("blue" "blue" "blue" "blue")))
+  #hasheq((active . #hasheq((score . 9) (wallet . ("red" "red"))))
+          (bank
+           .
+           ("green"
+            "green"
+            "green"
+            "green"
+            "blue"
+            "blue"
+            "blue"
+            "blue"
+            "blue"))
+          (cards . ())
+          (scores . ())))
+(*** expected)
+'(("green" "green" "green" "blue" "blue" "blue" "blue")
+  ("blue" "red" "red" "green"))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+(testing /home/camoy/24SwDev/Code/6/Tests/3-in.json /home/camoy/24SwDev/Code/6/Tests/3-out.json)
+Traceback (most recent call last):
+  File "/course/cs4500f24/tas/camoy/repos/educational-lizards/./6/xrules", line 11, in <module>
+    from Bazaar.Common.turn_state import TurnState
+  File "/course/cs4500f24/tas/camoy/repos/educational-lizards/Bazaar/Common/turn_state.py", line 5, in <module>
+    from Bazaar.Referee.player_state import PlayerState
+  File "/course/cs4500f24/tas/camoy/repos/educational-lizards/Bazaar/Referee/player_state.py", line 7, in <module>
+    from Bazaar.Player.mechanism import Mechanism
+  File "/course/cs4500f24/tas/camoy/repos/educational-lizards/Bazaar/Player/mechanism.py", line 8, in <module>
+    from Bazaar.Common.turn_state import TurnState
+ImportError: cannot import name 'TurnState' from partially initialized module 'Bazaar.Common.turn_state' (most likely due to a circular import) (/course/cs4500f24/tas/camoy/repos/educational-lizards/Bazaar/Common/turn_state.py)
+---------------------------------
+(*** score 0)
+(*** on)
+'(((("blue" "blue" "blue" "blue") ("red" "green"))
+   (("red") ("green" "green" "green" "green")))
+  ((("red") ("green" "green" "green" "green"))
+   (("blue" "blue" "blue" "blue") ("red" "green")))
+  #hasheq((active . #hasheq((score . 9) (wallet . ("red" "red"))))
+          (bank
+           .
+           ("green"
+            "green"
+            "green"
+            "green"
+            "blue"
+            "blue"
+            "blue"
+            "blue"
+            "blue"))
+          (cards . ())
+          (scores . ())))
+(*** expected)
+'(#f)
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+()
+((passed 0) (total 4) (partial-score 0))

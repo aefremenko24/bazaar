@@ -1,0 +1,135 @@
+(testing /course/cs4500f24/tas/camoy/repos/educational-lizards/./5/xstrategy)
+(testing /course/cs4500f24/tas/camoy/repos/5/???/Tests/0-in.json /course/cs4500f24/tas/camoy/repos/5/???/Tests/0-out.json)
+Traceback (most recent call last):
+  File "/course/cs4500f24/tas/camoy/repos/educational-lizards/./5/xstrategy", line 10, in <module>
+    from Bazaar.Common.equations import Equations
+  File "/course/cs4500f24/tas/camoy/repos/educational-lizards/Bazaar/Common/equations.py", line 5, in <module>
+    from pydantic import BaseModel, model_validator, conlist, conset
+ModuleNotFoundError: No module named 'pydantic'
+---------------------------------
+(*** score 0)
+(*** on)
+'(((("green" "green" "blue" "white") ("red" "red"))
+   (("yellow") ("green" "white"))
+   (("blue") ("red"))
+   (("green" "blue" "red") ("white" "yellow" "yellow"))
+   (("red") ("green"))
+   (("blue" "blue") ("yellow"))
+   (("blue" "blue" "green") ("white" "red"))
+   (("green") ("red" "white"))
+   (("blue" "red" "green") ("yellow"))
+   (("green" "white" "red") ("yellow" "yellow")))
+  #hasheq((active
+           .
+           #hasheq((score . 15)
+                   (wallet . ("red" "blue" "white" "green" "red"))))
+          (bank
+           .
+           ("red"
+            "red"
+            "red"
+            "red"
+            "red"
+            "blue"
+            "blue"
+            "blue"
+            "blue"
+            "blue"
+            "green"
+            "green"
+            "green"
+            "green"
+            "green"
+            "white"
+            "white"
+            "white"
+            "white"
+            "white"
+            "yellow"
+            "yellow"
+            "yellow"
+            "yellow"
+            "yellow"))
+          (cards
+           .
+           (#hasheq((face? . #t)
+                    (pebbles . ("red" "red" "red" "white" "white")))
+            #hasheq((face? . #f)
+                    (pebbles . ("red" "green" "green" "blue" "white")))
+            #hasheq((face? . #t)
+                    (pebbles . ("red" "red" "green" "white" "white")))
+            #hasheq((face? . #f)
+                    (pebbles . ("red" "green" "green" "blue" "white")))))
+          (scores . (10 12)))
+  "purchase-size")
+(*** expected)
+'(((("green") ("red" "white")))
+  (#hasheq((face? . #t) (pebbles . ("red" "red" "red" "white" "white"))))
+  5
+  ("blue"))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+(testing /course/cs4500f24/tas/camoy/repos/5/???/Tests/2-in.json /course/cs4500f24/tas/camoy/repos/5/???/Tests/2-out.json)
+Traceback (most recent call last):
+  File "/course/cs4500f24/tas/camoy/repos/educational-lizards/./5/xstrategy", line 10, in <module>
+    from Bazaar.Common.equations import Equations
+  File "/course/cs4500f24/tas/camoy/repos/educational-lizards/Bazaar/Common/equations.py", line 5, in <module>
+    from pydantic import BaseModel, model_validator, conlist, conset
+ModuleNotFoundError: No module named 'pydantic'
+---------------------------------
+(*** score 0)
+(*** on)
+'(((("green" "green" "blue" "white") ("red" "red"))
+   (("yellow") ("green" "white"))
+   (("blue") ("red"))
+   (("green" "blue" "red") ("white" "yellow" "yellow"))
+   (("red") ("green")))
+  #hasheq((active
+           .
+           #hasheq((score . 15) (wallet . ("red" "red" "red" "red" "red"))))
+          (bank
+           .
+           ("red"
+            "red"
+            "red"
+            "red"
+            "red"
+            "blue"
+            "blue"
+            "blue"
+            "blue"
+            "blue"
+            "green"
+            "green"
+            "green"
+            "green"
+            "green"
+            "white"
+            "white"
+            "white"
+            "white"))
+          (cards
+           .
+           (#hasheq((face? . #t)
+                    (pebbles . ("red" "red" "red" "white" "white")))
+            #hasheq((face? . #f)
+                    (pebbles . ("red" "green" "green" "blue" "white")))
+            #hasheq((face? . #t)
+                    (pebbles . ("red" "red" "green" "white" "white")))
+            #hasheq((face? . #f)
+                    (pebbles . ("red" "green" "green" "blue" "white")))))
+          (scores . (10 12)))
+  "purchase-size")
+(*** expected)
+'(((("red" "red") ("blue" "green" "green" "white")))
+  (#hasheq((face? . #f) (pebbles . ("red" "blue" "green" "green" "white"))))
+  2
+  ("red" "red"))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+()
+((passed 0) (total 2) (partial-score 0))

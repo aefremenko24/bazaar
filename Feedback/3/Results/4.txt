@@ -1,0 +1,37 @@
+(testing /course/cs4500f24/tas/camoy/repos/ultimate-penguins/./3/xeq)
+(testing /course/cs4500f24/tas/camoy/repos/3/???/Tests/0-in.json /course/cs4500f24/tas/camoy/repos/3/???/Tests/0-out.json)
+Traceback (most recent call last):
+  File "/course/cs4500f24/tas/camoy/repos/ultimate-penguins/./3/xeq", line 10, in <module>
+    from Bazaar.Common.player import Player
+  File "/course/cs4500f24/tas/camoy/repos/ultimate-penguins/Bazaar/Common/player.py", line 26, in <module>
+    from Bazaar.Common.utils import (
+  File "/course/cs4500f24/tas/camoy/repos/ultimate-penguins/Bazaar/Common/utils.py", line 25, in <module>
+    import pygame
+ModuleNotFoundError: No module named 'pygame'
+---------------------------------
+(*** score 0)
+(*** on)
+'(((("yellow" "blue") ("green" "red" "red"))
+   (("yellow" "white") ("red"))
+   (("green") ("yellow"))
+   (("white" "blue" "blue") ("red" "yellow" "yellow"))
+   (("yellow" "green" "white" "green") ("blue"))
+   (("green" "white") ("red"))
+   (("green" "white" "green" "yellow") ("red" "blue" "blue" "blue"))
+   (("green" "blue" "white" "white") ("red" "yellow"))
+   (("yellow" "red" "green" "green") ("white" "blue" "blue" "blue"))
+   (("green") ("red")))
+  ("red" "yellow" "yellow" "green" "blue" "blue" "blue" "blue" "white" "green")
+  ("red" "blue" "blue" "blue"))
+(*** expected)
+'(((("yellow" "white") ("red"))
+   (("yellow" "green" "white" "green") ("blue"))
+   (("green" "white") ("red"))
+   (("green" "white" "green" "yellow") ("red" "blue" "blue" "blue"))
+   (("green") ("red"))))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+()
+((passed 0) (total 1) (partial-score 0))

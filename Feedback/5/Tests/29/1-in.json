@@ -1,0 +1,78 @@
+[
+    [
+        ["blue"],
+        ["red"]
+    ],
+    [
+        ["red"], 
+        ["green", "blue", "white", "white"]
+    ],
+    [
+        ["blue", "blue", "blue", "blue"],
+        ["green"]
+    ],
+    [
+        ["yellow"],
+        ["white"]
+    ],
+    [
+        ["yellow"],
+        ["white", "white"]
+    ],
+    [
+        ["yellow"],
+        ["white", "white", "white"]
+    ],
+    [
+        ["yellow"],
+        ["white", "white", "white", "white"]
+    ],
+    [
+        ["yellow", "yellow"],
+        ["white"]
+    ],
+    [
+        ["yellow", "yellow", "yellow"],
+        ["white"]
+    ],
+    [
+        ["yellow", "yellow", "yellow", "yellow"],
+        ["white"]
+    ]
+]
+
+{ 
+    "bank":  [
+        "red", "red", "red", 
+        "blue", "blue", "blue", "blue",
+        "green", "green", "green", 
+        "yellow", "yellow", "yellow", 
+        "white", "white", "white"
+    ],
+    "cards" : [
+        {
+            "pebbles": ["red", "red", "red", "red", "white"],
+            "face?": false
+        },
+        {
+            "pebbles": ["blue", "blue", "blue", "blue", "green"],
+            "face?": false
+        },
+        {
+            "pebbles": [
+                "red", "red", "red", "red", "green"
+            ],
+            "face?": true
+        }
+    ],
+    "active" : {
+        "wallet": [
+            "red", "red", "red", "red", "green"
+        ],
+        "score": 0
+    },
+    "scores" : [] 
+}
+
+
+"purchase-size"

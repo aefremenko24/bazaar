@@ -1,0 +1,50 @@
+{ "bank": ["red","green"],
+  "visibles" : [{ "pebbles" : ["red","green","white","white","white"], "face?": true },
+    { "pebbles" : ["red","green","white","white","white"], "face?": true },
+    { "pebbles" : ["red","red","red","blue","white"], "face?": false },
+    { "pebbles" : ["red","green","white","blue","red"], "face?": false }],
+  "cards": [
+    { "pebbles": ["red", "green", "white", "blue", "yellow"], "face?": true },
+    { "pebbles": ["white", "red", "blue", "green", "green"], "face?": false },
+    { "pebbles": ["yellow", "red", "blue", "white", "white"], "face?": true },
+    { "pebbles": ["green", "yellow", "red", "blue", "white"], "face?": false },
+    { "pebbles": ["blue", "green", "red", "white", "yellow"], "face?": true },
+    { "pebbles": ["green", "green", "blue", "red", "white"], "face?": true },
+    { "pebbles": ["yellow", "white", "red", "blue", "green"], "face?": false },
+    { "pebbles": ["red", "yellow", "blue", "green", "white"], "face?": true },
+    { "pebbles": ["white", "green", "red", "blue", "yellow"], "face?": false },
+    { "pebbles": ["green", "blue", "white", "yellow", "red"], "face?": true },
+    { "pebbles": ["blue", "green", "white", "red", "yellow"], "face?": false },
+    { "pebbles": ["yellow", "white", "green", "blue", "red"], "face?": true },
+    { "pebbles": ["red", "green", "yellow", "blue", "white"], "face?": false },
+    { "pebbles": ["green", "blue", "yellow", "white", "red"], "face?": true },
+    { "pebbles": ["white", "yellow", "green", "blue", "red"], "face?": true },
+    { "pebbles": ["blue", "white", "green", "red", "yellow"], "face?": false }
+  ],
+  "players": [
+    {
+      "wallet": ["red", "blue", "white"],
+      "score": 10
+    },
+    {
+      "wallet": ["green", "yellow"],
+      "score": 8
+    },
+    {
+      "wallet": ["blue", "white", "yellow"],
+      "score": 12
+    },
+    {
+      "wallet": ["red", "green", "yellow"],
+      "score": 15
+    },
+    {
+      "wallet": ["white", "red", "blue"],
+      "score": 9
+    },
+    {
+      "wallet": ["green", "white", "blue", "yellow"],
+      "score": 7
+    }
+  ] }
+

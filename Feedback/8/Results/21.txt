@@ -1,0 +1,236 @@
+(testing /course/cs4500f24/tas/camoy/repos/ultimate-beetles/./8/xgames-blogic)
+(testing /course/cs4500f24/tas/camoy/repos/8/???/Tests/0-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/0-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'((("bob" "purchase-points" "request-pebble-or-trades")
+   ("jhon" "purchase-points" "request-cards")
+   ("player1234" "purchase-size"))
+  ((("white" "blue" "blue") ("green"))
+   (("yellow" "yellow") ("white" "red"))
+   (("yellow" "yellow" "yellow") ("blue" "blue" "green"))
+   (("yellow" "yellow" "yellow") ("green" "green" "red" "red"))
+   (("green" "blue") ("yellow" "yellow" "red" "red")))
+  #hasheq((bank . ("green" "green" "green" "red" "red" "blue" "white"))
+          (cards . ())
+          (players
+           .
+           (#hasheq((score . 9)
+                    (wallet
+                     .
+                     ("red" "red" "red" "red" "green" "green" "yellow")))
+            #hasheq((score . 7)
+                    (wallet
+                     .
+                     ("blue" "blue" "blue" "white" "green" "red" "yellow")))
+            #hasheq((score . 8)
+                    (wallet
+                     .
+                     ("yellow"
+                      "yellow"
+                      "blue"
+                      "blue"
+                      "green"
+                      "white"
+                      "white")))))
+          (visibles
+           .
+           (#hasheq((face? . #f)
+                    (pebbles . ("blue" "blue" "red" "red" "red")))))))
+(*** expected)
+'(("player1234") ("bob"))
+(*** but received)
+'(((plain fast with-newline plain-unicode) (("player1234") ("bob" "jhon"))))
+
+
+(testing /course/cs4500f24/tas/camoy/repos/8/???/Tests/1-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/1-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'((("bob" "purchase-size")
+   ("jhon" "purchase-points" "a cheat" "wallet-cannot-buy-card")
+   ("player1234" "purchase-size")
+   ("playername" "purchase-points"))
+  ((("blue" "blue" "blue") ("white" "white" "white" "green"))
+   (("red" "red" "blue" "blue") ("white"))
+   (("green" "green" "green" "green") ("blue" "blue" "blue")))
+  #hasheq((bank . ("green" "white" "white" "yellow" "yellow" "blue" "red"))
+          (cards . ())
+          (players
+           .
+           (#hasheq((score . 1)
+                    (wallet
+                     .
+                     ("red" "red" "yellow" "yellow" "green" "green" "white")))
+            #hasheq((score . 0)
+                    (wallet
+                     .
+                     ("green" "green" "yellow" "white" "red" "red" "red")))
+            #hasheq((score . 9)
+                    (wallet
+                     .
+                     ("blue" "white" "white" "red" "green" "yellow" "yellow")))
+            #hasheq((score . 8)
+                    (wallet
+                     .
+                     ("green" "green" "green" "blue" "blue" "blue" "red")))))
+          (visibles
+           .
+           (#hasheq((face? . #t)
+                    (pebbles . ("blue" "blue" "green" "yellow" "red")))
+            #hasheq((face? . #t)
+                    (pebbles . ("white" "white" "blue" "green" "yellow")))))))
+(*** expected)
+'(("player1234") ("jhon"))
+(*** but received)
+'(((plain fast with-newline plain-unicode) (("player1234") ())))
+
+
+(testing /course/cs4500f24/tas/camoy/repos/8/???/Tests/2-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/2-out.json)
+(testing /course/cs4500f24/tas/camoy/repos/8/???/Tests/3-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/3-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'((("bob" "purchase-points") ("jhon" "purchase-size" "win"))
+  ((("blue" "blue") ("red" "yellow"))
+   (("yellow" "yellow" "yellow") ("green" "red"))
+   (("yellow" "yellow") ("blue" "blue" "green"))
+   (("yellow" "yellow" "yellow") ("blue" "blue"))
+   (("blue" "blue" "blue" "yellow") ("green" "green")))
+  #hasheq((bank . ("yellow" "yellow" "green" "green" "white" "white" "red"))
+          (cards . ())
+          (players
+           .
+           (#hasheq((score . 9)
+                    (wallet
+                     .
+                     ("red" "red" "red" "white" "white" "blue" "blue")))
+            #hasheq((score . 3)
+                    (wallet
+                     .
+                     ("green"
+                      "green"
+                      "yellow"
+                      "yellow"
+                      "yellow"
+                      "blue"
+                      "red")))))
+          (visibles
+           .
+           (#hasheq((face? . #f)
+                    (pebbles . ("white" "white" "red" "red" "blue")))
+            #hasheq((face? . #t)
+                    (pebbles . ("blue" "white" "white" "white" "white")))
+            #hasheq((face? . #f)
+                    (pebbles . ("blue" "blue" "yellow" "green" "green")))))))
+(*** expected)
+'(("bob") ("jhon"))
+(*** but received)
+'(((plain fast with-newline plain-unicode) (("bob") ())))
+
+
+(testing /course/cs4500f24/tas/camoy/repos/8/???/Tests/4-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/4-out.json)
+(testing /course/cs4500f24/tas/camoy/repos/8/???/Tests/5-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/5-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'((("bob" "purchase-size")
+   ("jhon" "purchase-size")
+   ("player1234" "purchase-size" "request-cards")
+   ("playername" "purchase-points" "setup"))
+  ((("yellow" "yellow" "white" "white") ("red" "red"))
+   (("green" "yellow" "yellow") ("red" "red"))
+   (("blue") ("green" "red" "yellow")))
+  #hasheq((bank . ("blue" "green" "green" "yellow" "white" "white" "red"))
+          (cards . ())
+          (players
+           .
+           (#hasheq((score . 3)
+                    (wallet
+                     .
+                     ("green" "white" "white" "yellow" "red" "red" "blue")))
+            #hasheq((score . 3)
+                    (wallet
+                     .
+                     ("blue" "blue" "yellow" "yellow" "white" "green" "red")))
+            #hasheq((score . 9)
+                    (wallet
+                     .
+                     ("yellow" "yellow" "red" "red" "red" "blue" "blue")))
+            #hasheq((score . 4)
+                    (wallet
+                     .
+                     ("yellow"
+                      "yellow"
+                      "yellow"
+                      "yellow"
+                      "green"
+                      "green"
+                      "white")))))
+          (visibles
+           .
+           (#hasheq((face? . #f)
+                    (pebbles . ("green" "green" "white" "red" "yellow")))
+            #hasheq((face? . #t)
+                    (pebbles . ("yellow" "yellow" "blue" "green" "red")))))))
+(*** expected)
+'(("player1234") ("playername"))
+(*** but received)
+'(((plain fast with-newline plain-unicode)
+   (("bob" "jhon") ("player1234" "playername"))))
+
+
+(testing /course/cs4500f24/tas/camoy/repos/8/???/Tests/6-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/6-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'((("bob" "purchase-size")
+   ("jhon" "purchase-points")
+   ("player1234" "purchase-size"))
+  ((("yellow" "yellow" "green" "red") ("white"))
+   (("yellow" "blue") ("white" "white" "white"))
+   (("green") ("red" "red" "red" "blue"))
+   (("red") ("blue" "blue" "white" "yellow")))
+  #hasheq((bank . ("yellow" "yellow" "green" "blue" "blue" "white" "white"))
+          (cards . ())
+          (players
+           .
+           (#hasheq((score . 3)
+                    (wallet
+                     .
+                     ("yellow" "yellow" "blue" "blue" "blue" "green" "green")))
+            #hasheq((score . 5)
+                    (wallet
+                     .
+                     ("white" "red" "red" "blue" "blue" "blue" "yellow")))
+            #hasheq((score . 4)
+                    (wallet
+                     .
+                     ("yellow"
+                      "yellow"
+                      "yellow"
+                      "yellow"
+                      "blue"
+                      "white"
+                      "white")))))
+          (visibles
+           .
+           (#hasheq((face? . #f)
+                    (pebbles . ("blue" "yellow" "yellow" "red" "red")))
+            #hasheq((face? . #t)
+                    (pebbles . ("yellow" "green" "white" "white" "blue")))
+            #hasheq((face? . #f)
+                    (pebbles . ("white" "white" "blue" "blue" "yellow")))
+            #hasheq((face? . #t)
+                    (pebbles . ("blue" "blue" "green" "green" "white")))))))
+(*** expected)
+'(("bob" "jhon") ())
+(*** but received)
+'(((plain fast with-newline plain-unicode) (("player1234") ())))
+
+
+(testing /course/cs4500f24/tas/camoy/repos/8/???/Tests/7-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/7-out.json)
+(testing /course/cs4500f24/tas/camoy/repos/8/???/Tests/8-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/8-out.json)
+(testing /course/cs4500f24/tas/camoy/repos/8/???/Tests/9-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/9-out.json)
+((/course/cs4500f24/tas/camoy/repos/8/???/Tests/2-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/2-out.json) (/course/cs4500f24/tas/camoy/repos/8/???/Tests/4-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/4-out.json) (/course/cs4500f24/tas/camoy/repos/8/???/Tests/7-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/7-out.json) (/course/cs4500f24/tas/camoy/repos/8/???/Tests/8-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/8-out.json) (/course/cs4500f24/tas/camoy/repos/8/???/Tests/9-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/9-out.json))
+((passed 5) (total 10) (partial-score 5))

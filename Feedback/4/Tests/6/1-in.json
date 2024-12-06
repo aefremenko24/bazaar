@@ -1,0 +1,12 @@
+{
+    "bank":[],
+    "cards":[],
+    "players":[
+        {"score":5,"wallet":["yellow","blue","blue","green","red","red","red","red","red","red","red","red","red","red","red","red"]},
+        {"score":0,"wallet":["green","white","white","white","white","white","white","yellow","yellow","yellow","yellow","yellow","blue"]},
+        {"score":11,"wallet":["blue","green","red"]},
+        {"score":6,"wallet":["blue","green","green","red","red"]},
+        {"score":4,"wallet":["white","white","white","white","white","white","yellow","yellow","yellow","yellow","yellow"]},
+        {"score":20,"wallet":[]}],
+    "visibles":[]
+}

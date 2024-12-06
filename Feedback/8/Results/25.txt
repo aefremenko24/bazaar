@@ -1,0 +1,88 @@
+(testing /course/cs4500f24/tas/camoy/repos/ultimate-beetles/./8/xgames-blogic)
+(testing /course/cs4500f24/tas/camoy/repos/8/???/Tests/0-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/0-out.json)
+Traceback (most recent call last):
+  File "/course/cs4500f24/tas/camoy/repos/ultimate-beetles/./8/xgames-blogic", line 45, in <module>
+    main(False)
+  File "/course/cs4500f24/tas/camoy/repos/ultimate-beetles/./8/xgames-blogic", line 33, in main
+    winners, kicked = referee.execute_game(players=actors, game_state=game_state)
+  File "/course/cs4500f24/tas/camoy/repos/ultimate-beetles/Bazaar/Referee/referee.py", line 541, in execute_game
+    winners, kicked = self.handle_turns(state)
+  File "/course/cs4500f24/tas/camoy/repos/ultimate-beetles/Bazaar/Referee/referee.py", line 559, in handle_turns
+    state = state.handle()
+  File "/course/cs4500f24/tas/camoy/repos/ultimate-beetles/Bazaar/Referee/referee.py", line 200, in handle
+    turn_state = self.game_state.extract_turnstate()
+  File "/course/cs4500f24/tas/camoy/repos/ultimate-beetles/Bazaar/Referee/game_state.py", line 87, in extract_turnstate
+    current_player = remaining_players.popleft()
+IndexError: pop from an empty deque
+---------------------------------
+(*** score 0)
+(*** on)
+'(()
+  ()
+  #hasheq((bank . ())
+          (cards . ())
+          (players . ())
+          (visibles
+           .
+           (#hasheq((face? . #t)
+                    (pebbles . ("red" "red" "blue" "blue" "blue")))
+            #hasheq((face? . #f)
+                    (pebbles . ("red" "red" "red" "red" "red")))))))
+(*** expected)
+'(() ())
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+(testing /course/cs4500f24/tas/camoy/repos/8/???/Tests/1-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/1-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'((("ezwin" "purchase-points"))
+  ((("red" "red" "white") ("blue" "blue" "blue")))
+  #hasheq((bank . ())
+          (cards . ())
+          (players . (#hasheq((score . 15) (wallet . ()))))
+          (visibles
+           .
+           (#hasheq((face? . #t)
+                    (pebbles . ("red" "red" "blue" "blue" "blue")))))))
+(*** expected)
+'(("ezwin") ())
+(*** but received)
+'(((plain fast with-newline plain-unicode) (() ("ezwin"))))
+
+
+(testing /course/cs4500f24/tas/camoy/repos/8/???/Tests/2-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/2-out.json)
+(testing /course/cs4500f24/tas/camoy/repos/8/???/Tests/3-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/3-out.json)
+(testing /course/cs4500f24/tas/camoy/repos/8/???/Tests/4-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/4-out.json)
+(testing /course/cs4500f24/tas/camoy/repos/8/???/Tests/5-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/5-out.json)
+(testing /course/cs4500f24/tas/camoy/repos/8/???/Tests/6-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/6-out.json)
+(testing /course/cs4500f24/tas/camoy/repos/8/???/Tests/7-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/7-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'((("winner1" "purchase-points")
+   ("winner2" "purchase-size")
+   ("loser" "purchase-points"))
+  ((("blue") ("red" "red")))
+  #hasheq((bank . ())
+          (cards . ())
+          (players
+           .
+           (#hasheq((score . 17) (wallet . ("blue" "blue")))
+            #hasheq((score . 17) (wallet . ("red")))
+            #hasheq((score . 16) (wallet . ("green" "white")))))
+          (visibles
+           .
+           (#hasheq((face? . #t)
+                    (pebbles . ("red" "red" "red" "red" "red")))))))
+(*** expected)
+'(("winner1" "winner2") ())
+(*** but received)
+'(((plain fast with-newline plain-unicode) (("winner1") ("winner2"))))
+
+
+(testing /course/cs4500f24/tas/camoy/repos/8/???/Tests/8-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/8-out.json)
+((/course/cs4500f24/tas/camoy/repos/8/???/Tests/2-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/2-out.json) (/course/cs4500f24/tas/camoy/repos/8/???/Tests/3-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/3-out.json) (/course/cs4500f24/tas/camoy/repos/8/???/Tests/4-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/4-out.json) (/course/cs4500f24/tas/camoy/repos/8/???/Tests/5-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/5-out.json) (/course/cs4500f24/tas/camoy/repos/8/???/Tests/6-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/6-out.json) (/course/cs4500f24/tas/camoy/repos/8/???/Tests/8-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/8-out.json))
+((passed 6) (total 9) (partial-score 6))

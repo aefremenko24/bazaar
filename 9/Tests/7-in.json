@@ -1,0 +1,3 @@
+[["Ben", "purchase-points", "a cheat", "use-non-existent-equation"], ["James", "purchase-points", "setup", 1]]
+[[["white", "white", "green"], ["blue"]], [["green", "blue", "yellow", "green"], ["white", "red", "red"]], [["yellow"], ["white"]]]
+{"bank": ["white"], "visibles": [{"pebbles": ["white", "blue", "yellow", "green", "red"], "face?": true}, {"pebbles": ["green", "green", "yellow", "blue", "white"], "face?": true}, {"pebbles": ["yellow", "yellow", "green", "red", "white"], "face?": true}], "cards": [], "players": [{"wallet": ["yellow", "yellow", "green", "yellow"], "score": 0},{"wallet": ["yellow", "yellow", "green", "yellow"], "score": 0}]}

@@ -1,0 +1,37 @@
+#!/usr/bin/env python3.9
+
+import os
+import sys
+
+
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+sys.path.append(project_root)
+
+
+from Bazaar.Player.exchanges import Exchange
+from Bazaar.Common.equations import Equations
+from Bazaar.Common.turn_state import TurnState
+from Bazaar.Common.rule_book import RuleBook
+import json, ijson
+
+def main():
+    json_values = []
+
+    for obj in ijson.items(sys.stdin.buffer, "", buf_size=1, multiple_values=True):
+        json_values.append(obj)
+
+    equations = Equations.deserialize(json_values[0])
+    rules = Exchange.deserialize(json_values[1])
+    turn_state = TurnState.deserialize(json_values[2])
+
+    output = RuleBook.validate_exchange_request(turn_state, rules.pebble_exchanges, equations)
+
+    if not output:
+        json.dump(False, sys.stdout)
+    else:
+        wallet, bank = output
+        json.dump(wallet.serialize(), sys.stdout)
+        json.dump(bank.serialize(), sys.stdout)
+
+if __name__ == "__main__":
+    main()

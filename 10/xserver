@@ -1,0 +1,41 @@
+#!/usr/bin/env python3.9
+
+import os
+import sys
+import ijson
+
+sys.stdout.reconfigure(encoding='utf-8')
+os.environ["PYGAME_HIDE_SUPPORT_PROMPT"] = "1"
+
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+sys.path.append(project_root)
+
+from Bazaar.Referee.referee import BonusType
+from Bazaar.Common.equations import Equations
+from Bazaar.Referee.game_state import GameState
+from Bazaar.Server.server import Server
+
+def main(port: int):
+    json_values = []
+
+    for obj in ijson.items(sys.stdin.buffer, "", buf_size=1, multiple_values=True):
+        json_values.append(obj)
+
+    equations = Equations.deserialize(json_values[0])
+    game_state = GameState.deserialize(json_values[1])
+    bonus = json_values[2] if len(json_values) > 2 else None
+
+    if bonus == "RWB":
+        bonus = BonusType.RWB
+    elif bonus == "SEY":
+        bonus = BonusType.SEY
+    else:
+        bonus = None
+
+    server = Server(port=port)
+    server.start_server()
+    server.run_server(bonus, game_state, equations)
+
+if __name__ == "__main__":
+    if len(sys.argv) == 2:
+        main(int(sys.argv[1]))

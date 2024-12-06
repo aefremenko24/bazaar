@@ -1,0 +1,139 @@
+(testing /course/cs4500f24/tas/camoy/repos/educational-lizards/./4/xturn)
+(testing /course/cs4500f24/tas/camoy/repos/4/???/Tests/0-in.json /course/cs4500f24/tas/camoy/repos/4/???/Tests/0-out.json)
+Traceback (most recent call last):
+  File "/course/cs4500f24/tas/camoy/repos/educational-lizards/./4/xturn", line 9, in <module>
+    from Bazaar.Referee.game_state import GameState
+  File "/course/cs4500f24/tas/camoy/repos/educational-lizards/Bazaar/Referee/game_state.py", line 5, in <module>
+    from pydantic import BaseModel
+ModuleNotFoundError: No module named 'pydantic'
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((bank . ("red" "green"))
+          (cards
+           .
+           (#hasheq((face? . #t)
+                    (pebbles . ("red" "green" "white" "blue" "yellow")))
+            #hasheq((face? . #f)
+                    (pebbles . ("white" "red" "blue" "green" "green")))
+            #hasheq((face? . #t)
+                    (pebbles . ("yellow" "red" "blue" "white" "white")))
+            #hasheq((face? . #f)
+                    (pebbles . ("green" "yellow" "red" "blue" "white")))
+            #hasheq((face? . #t)
+                    (pebbles . ("blue" "green" "red" "white" "yellow")))
+            #hasheq((face? . #t)
+                    (pebbles . ("green" "green" "blue" "red" "white")))
+            #hasheq((face? . #f)
+                    (pebbles . ("yellow" "white" "red" "blue" "green")))
+            #hasheq((face? . #t)
+                    (pebbles . ("red" "yellow" "blue" "green" "white")))
+            #hasheq((face? . #f)
+                    (pebbles . ("white" "green" "red" "blue" "yellow")))
+            #hasheq((face? . #t)
+                    (pebbles . ("green" "blue" "white" "yellow" "red")))
+            #hasheq((face? . #f)
+                    (pebbles . ("blue" "green" "white" "red" "yellow")))
+            #hasheq((face? . #t)
+                    (pebbles . ("yellow" "white" "green" "blue" "red")))
+            #hasheq((face? . #f)
+                    (pebbles . ("red" "green" "yellow" "blue" "white")))
+            #hasheq((face? . #t)
+                    (pebbles . ("green" "blue" "yellow" "white" "red")))
+            #hasheq((face? . #t)
+                    (pebbles . ("white" "yellow" "green" "blue" "red")))
+            #hasheq((face? . #f)
+                    (pebbles . ("blue" "white" "green" "red" "yellow")))))
+          (players
+           .
+           (#hasheq((score . 10) (wallet . ("red" "blue" "white")))
+            #hasheq((score . 8) (wallet . ("green" "yellow")))
+            #hasheq((score . 12) (wallet . ("blue" "white" "yellow")))
+            #hasheq((score . 15) (wallet . ("red" "green" "yellow")))
+            #hasheq((score . 9) (wallet . ("white" "red" "blue")))
+            #hasheq((score . 7) (wallet . ("green" "white" "blue" "yellow")))))
+          (visibles
+           .
+           (#hasheq((face? . #t)
+                    (pebbles . ("red" "green" "white" "white" "white")))
+            #hasheq((face? . #t)
+                    (pebbles . ("red" "green" "white" "white" "white")))
+            #hasheq((face? . #f)
+                    (pebbles . ("red" "red" "red" "blue" "white")))
+            #hasheq((face? . #f)
+                    (pebbles . ("red" "green" "white" "blue" "red")))))))
+(*** expected)
+'(#hasheq((active . #hasheq((score . 10) (wallet . ("red" "blue" "white"))))
+          (bank . ("red" "green"))
+          (cards
+           .
+           (#hasheq((face? . #t)
+                    (pebbles . ("red" "green" "white" "white" "white")))
+            #hasheq((face? . #t)
+                    (pebbles . ("red" "green" "white" "white" "white")))
+            #hasheq((face? . #f)
+                    (pebbles . ("red" "red" "red" "blue" "white")))
+            #hasheq((face? . #f)
+                    (pebbles . ("red" "green" "white" "blue" "red")))))
+          (scores . (8 12 15 9 7))))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+(testing /course/cs4500f24/tas/camoy/repos/4/???/Tests/1-in.json /course/cs4500f24/tas/camoy/repos/4/???/Tests/1-out.json)
+Traceback (most recent call last):
+  File "/course/cs4500f24/tas/camoy/repos/educational-lizards/./4/xturn", line 9, in <module>
+    from Bazaar.Referee.game_state import GameState
+  File "/course/cs4500f24/tas/camoy/repos/educational-lizards/Bazaar/Referee/game_state.py", line 5, in <module>
+    from pydantic import BaseModel
+ModuleNotFoundError: No module named 'pydantic'
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((bank . ())
+          (cards
+           .
+           (#hasheq((face? . #t) (pebbles . ("red" "red" "red" "blue" "blue")))
+            #hasheq((face? . #f)
+                    (pebbles . ("green" "green" "green" "green" "green")))
+            #hasheq((face? . #f)
+                    (pebbles . ("red" "blue" "green" "white" "yellow")))))
+          (players
+           .
+           (#hasheq((score . 18)
+                    (wallet . ("red" "blue" "green" "white" "yellow")))
+            #hasheq((score . 2) (wallet . ("red" "red")))
+            #hasheq((score . 0) (wallet . ()))))
+          (visibles
+           .
+           (#hasheq((face? . #t)
+                    (pebbles . ("yellow" "yellow" "yellow" "blue" "white")))
+            #hasheq((face? . #t)
+                    (pebbles . ("red" "white" "red" "white" "red")))
+            #hasheq((face? . #f)
+                    (pebbles . ("red" "white" "white" "blue" "blue")))
+            #hasheq((face? . #f)
+                    (pebbles . ("red" "red" "red" "blue" "blue")))))))
+(*** expected)
+'(#hasheq((active
+           .
+           #hasheq((score . 18)
+                   (wallet . ("red" "blue" "green" "white" "yellow"))))
+          (bank . ())
+          (cards
+           .
+           (#hasheq((face? . #t)
+                    (pebbles . ("yellow" "yellow" "yellow" "blue" "white")))
+            #hasheq((face? . #t)
+                    (pebbles . ("red" "white" "red" "white" "red")))
+            #hasheq((face? . #f)
+                    (pebbles . ("red" "white" "white" "blue" "blue")))
+            #hasheq((face? . #f)
+                    (pebbles . ("red" "red" "red" "blue" "blue")))))
+          (scores . (2 0))))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+()
+((passed 0) (total 2) (partial-score 0))

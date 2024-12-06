@@ -1,0 +1,55 @@
+[
+    [
+        [
+            "red"
+        ],
+        [
+            "blue",
+            "blue",
+            "blue"
+        ]
+    ],
+    [
+        [
+            "green"
+        ],
+        [
+            "white",
+            "yellow"
+        ]
+    ]
+]
+{
+    "active": {
+        "score": 4,
+        "wallet": [
+            "red",
+            "green",
+            "blue",
+            "blue",
+            "blue"
+        ]
+    },
+    "bank": [
+        "blue",
+        "blue",
+        "blue",
+        "red",
+        "white",
+        "yellow"
+    ],
+    "cards": [
+        {
+            "face?": false,
+            "pebbles": [
+                "red",
+                "white",
+                "yellow",
+                "blue",
+                "blue"
+            ]
+        }
+    ],
+    "scores": []
+}
+"purchase-size"

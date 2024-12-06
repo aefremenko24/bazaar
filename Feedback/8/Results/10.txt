@@ -1,0 +1,75 @@
+(testing /course/cs4500f24/tas/camoy/repos/ultimate-beetles/./8/xgames-blogic)
+(testing /course/cs4500f24/tas/camoy/repos/8/???/Tests/0-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/0-out.json)
+(testing /course/cs4500f24/tas/camoy/repos/8/???/Tests/1-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/1-out.json)
+(testing /course/cs4500f24/tas/camoy/repos/8/???/Tests/2-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/2-out.json)
+(testing /course/cs4500f24/tas/camoy/repos/8/???/Tests/3-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/3-out.json)
+(testing /course/cs4500f24/tas/camoy/repos/8/???/Tests/4-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/4-out.json)
+(testing /course/cs4500f24/tas/camoy/repos/8/???/Tests/5-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/5-out.json)
+(testing /course/cs4500f24/tas/camoy/repos/8/???/Tests/6-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/6-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'((("Blaine" "purchase-points" "a cheat" "use-non-existent-equation")
+   ("Sasha" "purchase-size"))
+  ((("red" "white" "blue") ("green" "yellow")))
+  #hasheq((bank
+           .
+           ("blue"
+            "blue"
+            "blue"
+            "blue"
+            "blue"
+            "green"
+            "green"
+            "green"
+            "green"
+            "green"
+            "red"
+            "red"
+            "red"
+            "red"
+            "red"))
+          (cards
+           .
+           (#hasheq((face? . #f)
+                    (pebbles . ("green" "green" "green" "green" "green")))
+            #hasheq((face? . #f)
+                    (pebbles . ("blue" "blue" "blue" "blue" "red")))
+            #hasheq((face? . #t)
+                    (pebbles . ("yellow" "yellow" "red" "white" "blue")))
+            #hasheq((face? . #f)
+                    (pebbles . ("green" "green" "green" "green" "green")))
+            #hasheq((face? . #t) (pebbles . ("red" "red" "blue" "red" "red")))
+            #hasheq((face? . #f)
+                    (pebbles . ("green" "green" "green" "green" "green")))
+            #hasheq((face? . #f)
+                    (pebbles . ("blue" "blue" "blue" "blue" "red")))
+            #hasheq((face? . #t)
+                    (pebbles . ("yellow" "yellow" "red" "white" "blue")))
+            #hasheq((face? . #f)
+                    (pebbles . ("green" "green" "green" "green" "green")))))
+          (players
+           .
+           (#hasheq((score . 0)
+                    (wallet . ("red" "white" "blue" "green" "yellow")))
+            #hasheq((score . 2) (wallet . ("white" "green" "yellow")))))
+          (visibles
+           .
+           (#hasheq((face? . #t) (pebbles . ("red" "red" "blue" "red" "red")))
+            #hasheq((face? . #f)
+                    (pebbles . ("green" "green" "green" "green" "green")))
+            #hasheq((face? . #f)
+                    (pebbles . ("blue" "blue" "blue" "blue" "red")))
+            #hasheq((face? . #t)
+                    (pebbles . ("yellow" "yellow" "red" "white" "blue")))))))
+(*** expected)
+'(("Sasha") ("Blaine"))
+(*** but received)
+'(((plain fast with-newline plain-unicode) (("Blaine") ())))
+
+
+(testing /course/cs4500f24/tas/camoy/repos/8/???/Tests/7-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/7-out.json)
+(testing /course/cs4500f24/tas/camoy/repos/8/???/Tests/8-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/8-out.json)
+(testing /course/cs4500f24/tas/camoy/repos/8/???/Tests/9-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/9-out.json)
+((/course/cs4500f24/tas/camoy/repos/8/???/Tests/0-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/0-out.json) (/course/cs4500f24/tas/camoy/repos/8/???/Tests/1-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/1-out.json) (/course/cs4500f24/tas/camoy/repos/8/???/Tests/2-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/2-out.json) (/course/cs4500f24/tas/camoy/repos/8/???/Tests/3-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/3-out.json) (/course/cs4500f24/tas/camoy/repos/8/???/Tests/4-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/4-out.json) (/course/cs4500f24/tas/camoy/repos/8/???/Tests/5-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/5-out.json) (/course/cs4500f24/tas/camoy/repos/8/???/Tests/7-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/7-out.json) (/course/cs4500f24/tas/camoy/repos/8/???/Tests/8-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/8-out.json) (/course/cs4500f24/tas/camoy/repos/8/???/Tests/9-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/9-out.json))
+((passed 9) (total 10) (partial-score 9))

@@ -1,0 +1,15 @@
+{
+  "bank": ["red", "white", "blue", "green", "yellow"],
+  "visibles": [
+    { "pebbles": ["red", "blue", "green", "red", "white"], "face?": false }
+  ],
+  "cards": [
+    { "pebbles": ["red", "yellow", "green", "yellow", "white"], "face?": true }
+  ],
+  "players": [
+    {
+      "wallet": ["red", "red", "red"],
+      "score": 9999999999999999988935498273598701004597577818920492838394
+    }
+  ]
+}

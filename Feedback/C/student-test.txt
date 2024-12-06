@@ -1,0 +1,103 @@
+(testing /home/camoy/24SwDev/Code/C/xtcp)
+(testing /home/camoy/repos/ultimate-penguins/./C/Tests-0/0-in.json /home/camoy/repos/ultimate-penguins/./C/Tests-0/0-out.json)
+xjson: expected PathString, given "/bar/doesntExist"
+  context...:
+   body of top-level
+   /proj/racket/plt-released/recent/collects/racket/match/compiler.rkt:467:15: parse-loop87
+xjson: expected PathString, given "/bar/doesntExist"
+  context...:
+   body of top-level
+   /proj/racket/plt-released/recent/collects/racket/match/compiler.rkt:467:15: parse-loop87
+xjson: expected PathString, given "/bar/doesntExist"
+  context...:
+   body of top-level
+   /proj/racket/plt-released/recent/collects/racket/match/compiler.rkt:467:15: parse-loop87
+xjson: expected PathString, given "/bar/doesntExist"
+  context...:
+   body of top-level
+   /proj/racket/plt-released/recent/collects/racket/match/compiler.rkt:467:15: parse-loop87
+xjson: expected PathString, given "/bar/doesntExist"
+  context...:
+   body of top-level
+   /proj/racket/plt-released/recent/collects/racket/match/compiler.rkt:467:15: parse-loop87
+xjson: expected PathString, given "/bar/doesntExist"
+  context...:
+   body of top-level
+   /proj/racket/plt-released/recent/collects/racket/match/compiler.rkt:467:15: parse-loop87
+xjson: expected PathString, given "/bar/doesntExist"
+  context...:
+   body of top-level
+   /proj/racket/plt-released/recent/collects/racket/match/compiler.rkt:467:15: parse-loop87
+xjson: expected PathString, given "/bar/doesntExist"
+  context...:
+   body of top-level
+   /proj/racket/plt-released/recent/collects/racket/match/compiler.rkt:467:15: parse-loop87
+xjson: expected PathString, given "/bar/doesntExist"
+  context...:
+   body of top-level
+   /proj/racket/plt-released/recent/collects/racket/match/compiler.rkt:467:15: parse-loop87
+xjson: expected PathString, given "/bar/doesntExist"
+  context...:
+   body of top-level
+   /proj/racket/plt-released/recent/collects/racket/match/compiler.rkt:467:15: parse-loop87
+xjson: expected PathString, given "/bar/doesntExist"
+  context...:
+   body of top-level
+   /proj/racket/plt-released/recent/collects/racket/match/compiler.rkt:467:15: parse-loop87
+xjson: expected PathString, given "/bar/doesntExist"
+  context...:
+   body of top-level
+   /proj/racket/plt-released/recent/collects/racket/match/compiler.rkt:467:15: parse-loop87
+xjson: expected PathString, given "/bar/doesntExist"
+  context...:
+   body of top-level
+   /proj/racket/plt-released/recent/collects/racket/match/compiler.rkt:467:15: parse-loop87
+xjson: expected PathString, given "/bar/doesntExist"
+  context...:
+   body of top-level
+   /proj/racket/plt-released/recent/collects/racket/match/compiler.rkt:467:15: parse-loop87
+xjson: expected PathString, given "/bar/doesntExist"
+  context...:
+   body of top-level
+   /proj/racket/plt-released/recent/collects/racket/match/compiler.rkt:467:15: parse-loop87
+xjson: expected PathString, given "/bar/doesntExist"
+  context...:
+   body of top-level
+   /proj/racket/plt-released/recent/collects/racket/match/compiler.rkt:467:15: parse-loop87
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((path . "/") (subs . ("foo" "moo")))
+  #hasheq((path . "/bar/doesntExist") (size . 5))
+  "query"
+  #hasheq((path . "/") (subs . ("bar")))
+  #hasheq((path . "/bar/thisExists") (size . 10))
+  #hasheq((path . "/bar/thisExists") (size . 15))
+  "query"
+  "quit")
+(*** expected)
+'(#hasheq((foo . #hasheq()) (moo . #hasheq()))
+  #hasheq((bar . #hasheq((thisExists . 15)))
+          (foo . #hasheq())
+          (moo . #hasheq())))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ())
+  ((plain fast with-newline escaped-unicode) ())
+  ((plain fast with-space plain-unicode) ())
+  ((plain fast with-space escaped-unicode) ())
+  ((plain slow with-newline plain-unicode) ())
+  ((plain slow with-newline escaped-unicode) ())
+  ((plain slow with-space plain-unicode) ())
+  ((plain slow with-space escaped-unicode) ())
+  ((pretty fast with-newline plain-unicode) ())
+  ((pretty fast with-newline escaped-unicode) ())
+  ((pretty fast with-space plain-unicode) ())
+  ((pretty fast with-space escaped-unicode) ())
+  ((pretty slow with-newline plain-unicode) ())
+  ((pretty slow with-newline escaped-unicode) ())
+  ((pretty slow with-space plain-unicode) ())
+  ((pretty slow with-space escaped-unicode) ()))
+
+
+()
+((passed 0) (total 1) (partial-score 0))

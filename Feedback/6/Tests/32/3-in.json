@@ -1,0 +1,61 @@
+[
+    [
+        ["white"],
+        ["blue"]
+    ], 
+    [
+        ["white"],
+        ["green"]
+    ],
+    [
+        ["blue", "blue", "blue", "blue"],
+        ["yellow"]
+    ],
+    [
+        ["blue", "blue", "blue"],
+        ["yellow"]
+    ],
+    [
+        ["blue"],
+        ["yellow", "yellow"]
+    ],
+    [
+        ["blue"],
+        ["yellow", "yellow", "yellow"]
+    ],
+    [
+        ["blue"],
+        ["yellow", "yellow", "yellow", "yellow"]
+    ],
+    [
+        ["green", "green"],
+        ["yellow", "yellow", "yellow"]
+    ],
+    [
+        ["green", "green", "green"],
+        ["yellow", "yellow", "yellow"]
+    ],
+    [
+        ["green", "green", "green"],
+        ["yellow", "yellow", "yellow", "yellow"]
+    ]
+]
+
+[
+    [
+        ["yellow"],
+        ["blue", "blue", "blue"]
+    ]
+]
+
+{ 
+    "bank": [
+        "red", "blue", "white", "green"
+    ],
+    "cards" : [],
+    "active" : {
+        "wallet": [ "blue", "white", "white", "red", "yellow" ],
+        "score": 0
+    },
+    "scores" : [] 
+}

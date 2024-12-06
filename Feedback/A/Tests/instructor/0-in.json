@@ -1,0 +1,8 @@
+{"path":"/","subs":["foo","moo"]}
+{"path":"/bar/foodotrkt","size":3}
+"query"
+{"path":"/","subs":["bar"]}
+{"path":"/bar/foodotrkt","size":4}
+"query"
+"quit"
+{"path":"/bar/foodotrkt","size":5}

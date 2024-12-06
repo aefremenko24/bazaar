@@ -1,0 +1,14 @@
+{
+    "bank": [
+    ],
+    "cards": [
+    ],
+    "visibles": [
+    ],
+    "players": [
+        {
+            "score": 0,
+            "wallet": []
+        }
+    ]
+}

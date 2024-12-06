@@ -1,0 +1,144 @@
+(testing /course/cs4500f24/tas/camoy/repos/educational-lizards/./5/xstrategy)
+(testing /course/cs4500f24/tas/camoy/repos/5/???/Tests/0-in.json /course/cs4500f24/tas/camoy/repos/5/???/Tests/0-out.json)
+Traceback (most recent call last):
+  File "/course/cs4500f24/tas/camoy/repos/educational-lizards/./5/xstrategy", line 10, in <module>
+    from Bazaar.Common.equations import Equations
+  File "/course/cs4500f24/tas/camoy/repos/educational-lizards/Bazaar/Common/equations.py", line 5, in <module>
+    from pydantic import BaseModel, model_validator, conlist, conset
+ModuleNotFoundError: No module named 'pydantic'
+---------------------------------
+(*** score 0)
+(*** on)
+'(((("red" "green") ("white"))
+   (("white" "red") ("blue" "yellow"))
+   (("white" "green" "blue" "yellow") ("red"))
+   (("white") ("green" "yellow" "blue"))
+   (("blue") ("yellow" "white"))
+   (("yellow") ("red"))
+   (("red") ("blue" "white"))
+   (("blue" "red" "yellow") ("white" "green"))
+   (("green" "yellow") ("blue" "red"))
+   (("blue") ("green")))
+  #hasheq((active . #hasheq((score . 0) (wallet . ())))
+          (bank
+           .
+           ("red"
+            "red"
+            "red"
+            "red"
+            "red"
+            "red"
+            "red"
+            "red"
+            "red"
+            "red"
+            "red"
+            "red"
+            "red"
+            "red"
+            "red"
+            "red"
+            "red"
+            "red"
+            "red"
+            "red"
+            "white"
+            "white"
+            "white"
+            "white"
+            "white"
+            "white"
+            "white"
+            "white"
+            "white"
+            "white"
+            "white"
+            "white"
+            "white"
+            "white"
+            "white"
+            "white"
+            "white"
+            "white"
+            "white"
+            "white"
+            "blue"
+            "blue"
+            "blue"
+            "blue"
+            "blue"
+            "blue"
+            "blue"
+            "blue"
+            "blue"
+            "blue"
+            "blue"
+            "blue"
+            "blue"
+            "blue"
+            "blue"
+            "blue"
+            "blue"
+            "blue"
+            "blue"
+            "blue"
+            "green"
+            "green"
+            "green"
+            "green"
+            "green"
+            "green"
+            "green"
+            "green"
+            "green"
+            "green"
+            "green"
+            "green"
+            "green"
+            "green"
+            "green"
+            "green"
+            "green"
+            "green"
+            "green"
+            "green"
+            "yellow"
+            "yellow"
+            "yellow"
+            "yellow"
+            "yellow"
+            "yellow"
+            "yellow"
+            "yellow"
+            "yellow"
+            "yellow"
+            "yellow"
+            "yellow"
+            "yellow"
+            "yellow"
+            "yellow"
+            "yellow"
+            "yellow"
+            "yellow"
+            "yellow"
+            "yellow"))
+          (cards
+           .
+           (#hasheq((face? . #f)
+                    (pebbles . ("blue" "red" "red" "yellow" "green")))
+            #hasheq((face? . #t)
+                    (pebbles . ("red" "blue" "red" "red" "yellow")))
+            #hasheq((face? . #t)
+                    (pebbles . ("yellow" "blue" "blue" "red" "white")))
+            #hasheq((face? . #t)
+                    (pebbles . ("yellow" "yellow" "white" "white" "blue")))))
+          (scores . (0)))
+  "purchase-points")
+(*** expected)
+'(() () 0 ())
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+()
+((passed 0) (total 1) (partial-score 0))

@@ -1,0 +1,10 @@
+description,score,max
+code inspection,123,150
+Bazaar/Common/rule-book.pp exists,5,5
+student executable passes instructor tests,0,15
+bonus,15,0
+xstrategy exists,5,5
+"[0-2]-{in,out}.json exists",5,5
+student tests passes instructor executable,15,15
+Bazaar/Planning/referee.md exists,5,5
+total,173,200

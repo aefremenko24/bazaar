@@ -1,0 +1,20 @@
+
+{"path":"/","subs":["foo"]}
+"query"
+{"path":"/","subs":["boo", "foo", "bar"]}
+"query" 
+{"path":"/foo","size":10}
+"query" 
+{"path":"/","subs":["foo"]}
+"query" 
+{"path":"/foo","size":15}
+"query" 
+{"path":"/","subs":["bar"]}
+"query" 
+{"path":"/bar","subs":["foo"]}
+"query" 
+{"path":"/bar/foo","subs":["bar"]}
+"query" 
+{"path":"/bar/foo/foo", "size":3}
+"query"
+"quit"

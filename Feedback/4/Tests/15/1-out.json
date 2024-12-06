@@ -1,0 +1,9 @@
+{
+  "bank":["green","red","blue","yellow"],
+  "cards":[],
+  "active":{
+    "score":0,
+    "wallet":["white"]
+  },
+  "scores":[]
+}

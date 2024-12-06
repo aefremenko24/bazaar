@@ -1,0 +1,22 @@
+[
+    [
+        ["blue"],
+        ["red", "white"]
+    ], 
+    [
+        ["blue"],
+        ["red", "green", "white", "yellow"]
+    ],
+    [
+        ["blue"],
+        ["yellow"]
+    ],
+    [
+        ["red"],
+        ["green"]
+    ],
+    [
+        ["blue"],
+        ["yellow", "red", "green"]
+    ]
+]

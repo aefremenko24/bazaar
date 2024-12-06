@@ -1,0 +1,7 @@
+{"path":"/","subs":["dira","dirb"]}
+{"path":"/dirb/file","size":1}
+"query"
+{"path":"/dirb/file","size":2}
+"query"
+"quit"
+{"path":"/dirb/file","size":3}

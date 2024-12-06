@@ -1,0 +1,21 @@
+{ "bank": [],
+  "visibles": [], 
+  "cards": [],
+  "players":  [
+      { 
+        "wallet": ["red", "blue"],
+        "score": 3
+      }, 
+      { 
+        "wallet": ["green", "green"],
+        "score": 1
+      },
+      { 
+        "wallet": ["yellow", "green"],
+        "score": 15
+      }
+  ]  
+}
+
+
+

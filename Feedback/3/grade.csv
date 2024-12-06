@@ -1,0 +1,11 @@
+description,score,max
+code inspection,140,140
+bonus,0,0
+partnership evaluation,20,20
+Bazaar/Referee/game-state.PP and Bazaar/Common/turn-state.PP exist,5,5
+Bazaar/Planning/player-interface.md exists,5,5
+"[0-2]-{in,out}.json exists",5,5
+student tests passes instructor executable,0,15
+student executable passes instructor tests,0,15
+xeq exists,5,5
+total,180,210

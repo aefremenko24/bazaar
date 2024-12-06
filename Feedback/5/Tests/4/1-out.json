@@ -1,0 +1,9 @@
+[[["blue","blue"],["red"]],[["red","red"],["blue"]],[["red","red"],["blue"]],[["red","red"],["blue"]]]
+[
+  {
+    "pebbles": ["blue", "blue", "blue", "blue", "blue"],
+    "face?": false
+  }
+]
+5
+[]

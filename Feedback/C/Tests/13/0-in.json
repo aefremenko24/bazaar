@@ -1,0 +1,16 @@
+"query"{ "path":  "/hello/world", "size":  2 }
+"query"
+{"path":  "/", "subs":  ["greetings", "animals", "colors"]}
+"query"
+{"path": "/animals", "subs"
+:  ["mammals", "reptiles"]}
+"query" {"path":  "/animals/mammals/platypus",               "size":  49}        "query"
+{"path":  "/animals/mammals/", "subs":  ["platypus", "human"]}
+"query"
+{"path":  "/greetings", "size":  3}"query"
+{"path":  "/"     ,
+
+  "subs":  ["animals"]}
+"query"
+{"path": "/greetings", "size": 111} "query"
+"quit" "query"

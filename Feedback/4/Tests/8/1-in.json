@@ -1,0 +1,17 @@
+{
+  "bank": ["green", "green", "red", "green", "white"],
+  "cards": [
+    { "pebbles": ["blue", "yellow", "yellow", "white", "yellow"], "face?": false },
+    { "pebbles": ["blue", "white", "yellow", "green", "white"], "face?": true },
+    { "pebbles": ["white", "red", "red", "green", "blue"], "face?": false }
+  ],
+  "visibles": [
+    { "pebbles": ["green", "green", "red", "green", "red"], "face?": true },
+    { "pebbles": ["yellow", "blue", "blue", "white", "yellow"], "face?": false },
+    { "pebbles": ["red", "yellow", "white", "blue", "green"], "face?": true }
+  ],
+  "players": [
+    { "wallet": [], "score": 2 },
+    { "wallet": ["white", "red", "green", "green", "red"], "score": 4 }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "bank": [
+    "green",
+    "green",
+    "green",
+    "green",
+    "green"
+  ],
+  "cards": [],
+  "active": {
+    "wallet": [
+      "red"
+    ],
+    "score": 1
+  },
+  "scores": [
+    2,
+    3
+  ]
+}

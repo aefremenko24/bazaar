@@ -1,0 +1,103 @@
+(testing /course/cs4500f24/tas/camoy/repos/educational-lizards/./5/xstrategy)
+(testing /course/cs4500f24/tas/camoy/repos/5/???/Tests/0-in.json /course/cs4500f24/tas/camoy/repos/5/???/Tests/0-out.json)
+Traceback (most recent call last):
+  File "/course/cs4500f24/tas/camoy/repos/educational-lizards/./5/xstrategy", line 10, in <module>
+    from Bazaar.Common.equations import Equations
+  File "/course/cs4500f24/tas/camoy/repos/educational-lizards/Bazaar/Common/equations.py", line 5, in <module>
+    from pydantic import BaseModel, model_validator, conlist, conset
+ModuleNotFoundError: No module named 'pydantic'
+---------------------------------
+(*** score 0)
+(*** on)
+'(((("red" "red" "red" "red") ("green" "green" "blue" "green"))
+   (("green" "white") ("yellow" "yellow"))
+   (("green" "blue" "red") ("white"))
+   (("blue") ("white")))
+  #hasheq((active
+           .
+           #hasheq((score . 0)
+                   (wallet
+                    .
+                    ("red"
+                     "red"
+                     "red"
+                     "red"
+                     "red"
+                     "blue"
+                     "blue"
+                     "white"
+                     "white"
+                     "white"
+                     "white"))))
+          (bank
+           .
+           ("red"
+            "red"
+            "red"
+            "red"
+            "blue"
+            "blue"
+            "blue"
+            "blue"
+            "blue"
+            "blue"
+            "blue"
+            "blue"
+            "white"
+            "white"
+            "white"
+            "white"))
+          (cards
+           .
+           (#hasheq((face? . #t)
+                    (pebbles . ("white" "red" "green" "blue" "red")))
+            #hasheq((face? . #t)
+                    (pebbles . ("white" "white" "white" "white" "white")))))
+          (scores . ()))
+  "purchase-points")
+(*** expected)
+'(((("blue") ("white")))
+  (#hasheq((face? . #t) (pebbles . ("white" "white" "white" "white" "white"))))
+  2
+  ("red" "red" "red" "red" "red" "blue"))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+(testing /course/cs4500f24/tas/camoy/repos/5/???/Tests/1-in.json /course/cs4500f24/tas/camoy/repos/5/???/Tests/1-out.json)
+Traceback (most recent call last):
+  File "/course/cs4500f24/tas/camoy/repos/educational-lizards/./5/xstrategy", line 10, in <module>
+    from Bazaar.Common.equations import Equations
+  File "/course/cs4500f24/tas/camoy/repos/educational-lizards/Bazaar/Common/equations.py", line 5, in <module>
+    from pydantic import BaseModel, model_validator, conlist, conset
+ModuleNotFoundError: No module named 'pydantic'
+---------------------------------
+(*** score 0)
+(*** on)
+'(((("red" "red" "blue") ("green" "yellow"))
+   (("green") ("white"))
+   (("white" "yellow") ("blue" "blue")))
+  #hasheq((active
+           .
+           #hasheq((score . 10)
+                   (wallet . ("green" "yellow" "yellow" "green"))))
+          (bank . ("red" "red" "red" "red" "blue" "blue" "white"))
+          (cards
+           .
+           (#hasheq((face? . #t)
+                    (pebbles . ("red" "red" "red" "red" "white")))))
+          (scores . (5 2 10)))
+  "purchase-size")
+(*** expected)
+'(((("green" "yellow") ("red" "red" "blue"))
+   (("green" "yellow") ("red" "red" "blue"))
+   (("blue" "blue") ("white" "yellow")))
+  (#hasheq((face? . #t) (pebbles . ("red" "red" "red" "red" "white"))))
+  5
+  ("yellow"))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+()
+((passed 0) (total 2) (partial-score 0))

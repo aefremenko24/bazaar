@@ -1,0 +1,6 @@
+description,score,max
+xgui exists,5,5
+xgui executable,5,5
+student executable passes instructor test,0,10
+code inspection,10,20
+total,20,40

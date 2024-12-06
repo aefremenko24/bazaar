@@ -1,0 +1,19 @@
+{
+    "bank": ["green","green","green","green","green"],
+    "cards":[],
+    "players":[
+        {
+            "score":1,
+            "wallet":["red"]
+        },
+        {
+            "score": 2,
+            "wallet": ["blue"]
+        },
+        {
+            "score": 3,
+            "wallet": ["green"]
+        }
+    ],
+    "visibles":[]
+}

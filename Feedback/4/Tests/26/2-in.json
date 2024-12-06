@@ -1,0 +1,277 @@
+{
+  "bank": [
+    "green",
+    "red",
+    "blue",
+    "yellow",
+    "blue",
+    "red",
+    "yellow",
+    "blue",
+    "green",
+    "red",
+    "blue",
+    "yellow",
+    "blue",
+    "red",
+    "yellow",
+    "blue"
+  ],
+  "visibles": [
+    {
+      "pebbles": [
+        "green",
+        "green",
+        "green",
+        "green",
+        "green"
+      ],
+      "face?": true
+    },
+    {
+      "pebbles": [
+        "red",
+        "yellow",
+        "yellow",
+        "blue",
+        "white"
+      ],
+      "face?": true
+    },
+    {
+      "pebbles": [
+        "blue",
+        "green",
+        "green",
+        "red",
+        "green"
+      ],
+      "face?": false
+    },
+    {
+      "pebbles": [
+        "yellow",
+        "blue",
+        "green",
+        "blue",
+        "white"
+      ],
+      "face?": false
+    }
+  ],
+  "cards": [
+    {
+      "pebbles": [
+        "yellow",
+        "red",
+        "red",
+        "white",
+        "white"
+      ],
+      "face?": true
+    },
+    {
+      "pebbles": [
+        "white",
+        "blue",
+        "green",
+        "blue",
+        "white"
+      ],
+      "face?": false
+    },
+    {
+      "pebbles": [
+        "green",
+        "green",
+        "red",
+        "white",
+        "white"
+      ],
+      "face?": false
+    },
+    {
+      "pebbles": [
+        "blue",
+        "white",
+        "green",
+        "blue",
+        "white"
+      ],
+      "face?": false
+    },
+    {
+      "pebbles": [
+        "red",
+        "yellow",
+        "green",
+        "blue",
+        "white"
+      ],
+      "face?": true
+    },
+    {
+      "pebbles": [
+        "red",
+        "yellow",
+        "red",
+        "blue",
+        "white"
+      ],
+      "face?": true
+    },
+    {
+      "pebbles": [
+        "red",
+        "yellow",
+        "white",
+        "white",
+        "white"
+      ],
+      "face?": false
+    },
+    {
+      "pebbles": [
+        "red",
+        "yellow",
+        "yellow",
+        "blue",
+        "white"
+      ],
+      "face?": false
+    },
+    {
+      "pebbles": [
+        "red",
+        "yellow",
+        "blue",
+        "blue",
+        "white"
+      ],
+      "face?": true
+    },
+    {
+      "pebbles": [
+        "red",
+        "yellow",
+        "red",
+        "blue",
+        "white"
+      ],
+      "face?": true
+    },
+    {
+      "pebbles": [
+        "red",
+        "yellow",
+        "blue",
+        "blue",
+        "white"
+      ],
+      "face?": false
+    },
+    {
+      "pebbles": [
+        "white",
+        "yellow",
+        "red",
+        "blue",
+        "white"
+      ],
+      "face?": false
+    },
+    {
+      "pebbles": [
+        "red",
+        "blue",
+        "red",
+        "blue",
+        "white"
+      ],
+      "face?": true
+    },
+    {
+      "pebbles": [
+        "red",
+        "yellow",
+        "red",
+        "blue",
+        "white"
+      ],
+      "face?": false
+    },
+    {
+      "pebbles": [
+        "red",
+        "yellow",
+        "red",
+        "white",
+        "white"
+      ],
+      "face?": true
+    },
+    {
+      "pebbles": [
+        "red",
+        "yellow",
+        "green",
+        "blue",
+        "white"
+      ],
+      "face?": true
+    }
+  ],
+  "players": [
+    {
+      "wallet": [
+        "white",
+        "red"
+      ],
+      "score": 14
+    },
+    {
+      "wallet": [
+        "green",
+        "white",
+        "yellow",
+        "green"
+      ],
+      "score": 11
+    },
+    {
+      "wallet": [
+        "red",
+        "blue",
+        "white",
+        "white",
+        "white",
+        "blue"
+      ],
+      "score": 0
+    },
+    {
+      "wallet": [
+        "blue",
+        "blue",
+        "green"
+      ],
+      "score": 12
+    },
+    {
+      "wallet": [
+        "yellow",
+        "yellow",
+        "blue"
+      ],
+      "score": 14
+    },
+    {
+      "wallet": [
+        "white",
+        "blue",
+        "yellow"
+      ],
+      "score": 16
+    }
+  ]
+}

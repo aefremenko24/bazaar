@@ -1,0 +1,3 @@
+[["Bobby", "purchase-size", "win", 1], ["Tony", "purchase-size"]]
+[[["red"], ["blue", "yellow"]], [["white", "red", "red", "yellow"], ["blue", "green", "green"]], [["blue", "red"], ["green", "white"]]]
+{"bank": ["green", "red", "red"], "visibles": [{"pebbles": ["white", "yellow", "red", "red", "red"], "face?": false}, {"pebbles": ["blue", "blue", "green", "red", "red"], "face?": false}, {"pebbles": ["yellow", "green", "yellow", "yellow", "white"], "face?": false}], "cards": [{"pebbles": ["green", "green", "blue", "white", "red"], "face?": false}, {"pebbles": ["red", "green", "white", "green", "yellow"], "face?": false}], "players": [{"wallet": ["green", "green", "blue"], "score": 0}, {"wallet": ["yellow", "white", "red", "red"], "score": 0}]}

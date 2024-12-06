@@ -1,0 +1,231 @@
+(testing /home/camoy/24SwDev/Code/8/xgames-blogic)
+(testing /course/cs4500f24/tas/camoy/repos/ultimate-beetles/./8/Tests-0/0-in.json /course/cs4500f24/tas/camoy/repos/ultimate-beetles/./8/Tests-0/0-out.json)
+jsexpr->game: objects fails to satisfy card-validity conditions
+1 visible cards, 1 cards
+from-json: failed validity checks; see above
+  context...:
+   body of top-level
+---------------------------------
+(*** score 0)
+(*** on)
+'((("Bob" "purchase-size") ("Kevin" "purchase-size"))
+  ((("white" "white" "white" "white") ("green" "green" "green" "green")))
+  #hasheq((bank . ())
+          (cards
+           .
+           (#hasheq((face? . #f)
+                    (pebbles . ("blue" "blue" "green" "green" "green")))))
+          (players
+           .
+           (#hasheq((score . 1) (wallet . ("red" "red")))
+            #hasheq((score . 20) (wallet . ("green" "white")))))
+          (visibles
+           .
+           (#hasheq((face? . #t)
+                    (pebbles . ("yellow" "red" "green" "yellow" "white")))))))
+(*** expected)
+'(("Kevin") ())
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+()
+((passed 0) (total 1) (partial-score 0))
+(testing /home/camoy/24SwDev/Code/8/xgames-blogic)
+(testing /course/cs4500f24/tas/camoy/repos/ultimate-beetles/./8/Tests-1/1-in.json /course/cs4500f24/tas/camoy/repos/ultimate-beetles/./8/Tests-1/1-out.json)
+((/course/cs4500f24/tas/camoy/repos/ultimate-beetles/./8/Tests-1/1-in.json /course/cs4500f24/tas/camoy/repos/ultimate-beetles/./8/Tests-1/1-out.json))
+((passed 1) (total 1) (partial-score 1))
+(testing /home/camoy/24SwDev/Code/8/xgames-blogic)
+(testing /course/cs4500f24/tas/camoy/repos/ultimate-beetles/./8/Tests-2/2-in.json /course/cs4500f24/tas/camoy/repos/ultimate-beetles/./8/Tests-2/2-out.json)
+((/course/cs4500f24/tas/camoy/repos/ultimate-beetles/./8/Tests-2/2-in.json /course/cs4500f24/tas/camoy/repos/ultimate-beetles/./8/Tests-2/2-out.json))
+((passed 1) (total 1) (partial-score 1))
+(testing /home/camoy/24SwDev/Code/8/xgames-blogic)
+(testing /course/cs4500f24/tas/camoy/repos/ultimate-beetles/./8/Tests-3/3-in.json /course/cs4500f24/tas/camoy/repos/ultimate-beetles/./8/Tests-3/3-out.json)
+((/course/cs4500f24/tas/camoy/repos/ultimate-beetles/./8/Tests-3/3-in.json /course/cs4500f24/tas/camoy/repos/ultimate-beetles/./8/Tests-3/3-out.json))
+((passed 1) (total 1) (partial-score 1))
+(testing /home/camoy/24SwDev/Code/8/xgames-blogic)
+/course/cs4500f24/tas/camoy/repos/ultimate-beetles/./8/Tests-4/4-out.json contains something other than JSON
+()
+((passed 0) (total 1) (partial-score 0))
+(testing /home/camoy/24SwDev/Code/8/xgames-blogic)
+(testing /course/cs4500f24/tas/camoy/repos/ultimate-beetles/./8/Tests-5/5-in.json /course/cs4500f24/tas/camoy/repos/ultimate-beetles/./8/Tests-5/5-out.json)
+jsexpr->game: objects fails to satisfy card-validity conditions
+3 visible cards, 2 cards
+from-json: failed validity checks; see above
+  context...:
+   body of top-level
+---------------------------------
+(*** score 0)
+(*** on)
+'((("Bobby" "purchase-size") ("Tony" "purchase-size"))
+  ((("red") ("blue" "yellow"))
+   (("white" "red" "red" "yellow") ("blue" "green" "green"))
+   (("blue" "red") ("green" "white")))
+  #hasheq((bank . ("green" "red" "red"))
+          (cards
+           .
+           (#hasheq((face? . #f)
+                    (pebbles . ("green" "green" "blue" "white" "red")))
+            #hasheq((face? . #f)
+                    (pebbles . ("red" "green" "white" "green" "yellow")))))
+          (players
+           .
+           (#hasheq((score . 0) (wallet . ("green" "green" "blue")))
+            #hasheq((score . 0) (wallet . ("yellow" "white" "red" "red")))))
+          (visibles
+           .
+           (#hasheq((face? . #f)
+                    (pebbles . ("white" "yellow" "red" "red" "red")))
+            #hasheq((face? . #f)
+                    (pebbles . ("blue" "blue" "green" "red" "red")))
+            #hasheq((face? . #f)
+                    (pebbles
+                     .
+                     ("yellow" "green" "yellow" "yellow" "white")))))))
+(*** expected)
+'(("Bobby" "Tony") ())
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+()
+((passed 0) (total 1) (partial-score 0))
+(testing /home/camoy/24SwDev/Code/8/xgames-blogic)
+(testing /course/cs4500f24/tas/camoy/repos/ultimate-beetles/./8/Tests-6/6-in.json /course/cs4500f24/tas/camoy/repos/ultimate-beetles/./8/Tests-6/6-out.json)
+((/course/cs4500f24/tas/camoy/repos/ultimate-beetles/./8/Tests-6/6-in.json /course/cs4500f24/tas/camoy/repos/ultimate-beetles/./8/Tests-6/6-out.json))
+((passed 1) (total 1) (partial-score 1))
+(testing /home/camoy/24SwDev/Code/8/xgames-blogic)
+(testing /course/cs4500f24/tas/camoy/repos/ultimate-beetles/./8/Tests-7/7-in.json /course/cs4500f24/tas/camoy/repos/ultimate-beetles/./8/Tests-7/7-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'((("Ben" "purchase-points" "a cheat" "use-non-existent-equation"))
+  ((("white" "white" "green") ("blue"))
+   (("green" "blue" "yellow" "green") ("white" "red" "red"))
+   (("yellow") ("white")))
+  #hasheq((bank . ("white"))
+          (cards . ())
+          (players
+           .
+           (#hasheq((score . 20)
+                    (wallet . ("yellow" "yellow" "green" "yellow")))))
+          (visibles
+           .
+           (#hasheq((face? . #t)
+                    (pebbles . ("white" "blue" "yellow" "green" "red")))
+            #hasheq((face? . #t)
+                    (pebbles . ("green" "green" "yellow" "blue" "white")))
+            #hasheq((face? . #t)
+                    (pebbles . ("yellow" "yellow" "green" "red" "white")))))))
+(*** expected)
+'(() ("Ben"))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+()
+((passed 0) (total 1) (partial-score 0))
+(testing /home/camoy/24SwDev/Code/8/xgames-blogic)
+(testing /course/cs4500f24/tas/camoy/repos/ultimate-beetles/./8/Tests-8/8-in.json /course/cs4500f24/tas/camoy/repos/ultimate-beetles/./8/Tests-8/8-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'((("Bob" "purchase-points" "a cheat" "buy-unavailable-card"))
+  ((("yellow" "red" "white") ("blue" "blue"))
+   (("red") ("white" "blue" "blue" "blue"))
+   (("red" "blue" "blue") ("white" "green" "yellow" "green")))
+  #hasheq((bank . ("blue" "green" "red" "red"))
+          (cards . ())
+          (players
+           .
+           (#hasheq((score . 20)
+                    (wallet . ("green" "white" "red" "white" "blue")))))
+          (visibles
+           .
+           (#hasheq((face? . #t)
+                    (pebbles . ("blue" "green" "blue" "green" "yellow")))
+            #hasheq((face? . #f)
+                    (pebbles . ("white" "red" "red" "green" "green")))))))
+(*** expected)
+'(() ("Bob"))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+()
+((passed 0) (total 1) (partial-score 0))
+(testing /home/camoy/24SwDev/Code/8/xgames-blogic)
+(testing /course/cs4500f24/tas/camoy/repos/ultimate-beetles/./8/Tests-9/9-in.json /course/cs4500f24/tas/camoy/repos/ultimate-beetles/./8/Tests-9/9-out.json)
+jsexpr->game: objects fails to satisfy card-validity conditions
+3 visible cards, 3 cards
+from-json: failed validity checks; see above
+  context...:
+   body of top-level
+---------------------------------
+(*** score 0)
+(*** on)
+'((("James" "purchase-points")
+   ("John" "purchase-points" "a cheat" "use-non-existent-equation"))
+  ((("blue" "yellow" "yellow") ("red" "white")))
+  #hasheq((bank
+           .
+           ("yellow"
+            "red"
+            "yellow"
+            "white"
+            "blue"
+            "red"
+            "white"
+            "white"
+            "yellow"
+            "green"
+            "white"
+            "red"
+            "blue"
+            "red"
+            "red"
+            "red"
+            "yellow"
+            "red"
+            "green"))
+          (cards
+           .
+           (#hasheq((face? . #f)
+                    (pebbles . ("yellow" "red" "yellow" "blue" "white")))
+            #hasheq((face? . #f) (pebbles . ("red" "red" "red" "red" "red")))
+            #hasheq((face? . #f)
+                    (pebbles . ("green" "green" "white" "green" "green")))))
+          (players
+           .
+           (#hasheq((score . 10)
+                    (wallet
+                     .
+                     ("green"
+                      "green"
+                      "blue"
+                      "white"
+                      "red"
+                      "yellow"
+                      "red"
+                      "red"
+                      "red"
+                      "white"
+                      "yellow")))
+            #hasheq((score . 10)
+                    (wallet . ("green" "green" "green" "blue" "blue" "red")))))
+          (visibles
+           .
+           (#hasheq((face? . #t)
+                    (pebbles . ("red" "yellow" "red" "white" "red")))
+            #hasheq((face? . #f)
+                    (pebbles . ("yellow" "green" "blue" "green" "white")))
+            #hasheq((face? . #f)
+                    (pebbles . ("white" "white" "white" "white" "red")))))))
+(*** expected)
+'(("James") ("John"))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+()
+((passed 0) (total 1) (partial-score 0))

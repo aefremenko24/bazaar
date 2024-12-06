@@ -1,0 +1,9 @@
+{}
+{}
+{"greetings":{},"animals":{},"colors":{}}
+{"greetings":{},"animals":{"mammals":{},"reptiles":{}},"colors":{}}
+{"greetings":{},"animals":{"mammals":{"platypus":49},"reptiles":{}},"colors":{}}
+{"greetings":{},"animals":{"mammals":{"platypus":49},"reptiles":{}},"colors":{}}
+{"greetings":3,"animals":{"mammals":{"platypus":49},"reptiles":{}},"colors":{}}
+{"greetings":3,"animals":{"mammals":{"platypus":49},"reptiles":{}},"colors":{}}
+{"greetings":111,"animals":{"mammals":{"platypus":49},"reptiles":{}},"colors":{}}

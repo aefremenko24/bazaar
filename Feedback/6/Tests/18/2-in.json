@@ -1,0 +1,65 @@
+[
+    [
+        [
+            "red"
+        ],
+        [
+            "blue",
+            "blue",
+            "blue"
+        ]
+    ],
+    [
+        [
+            "green"
+        ],
+        [
+            "blue",
+            "blue"
+        ]
+    ]
+]
+[
+    [
+        [
+            "red"
+        ],
+        [
+            "blue",
+            "blue",
+            "blue"
+        ]
+    ],
+    [
+        [
+            "green"
+        ],
+        [
+            "blue",
+            "blue"
+        ]
+    ]
+]
+
+{
+    "active": {
+        "score": 1,
+        "wallet": [
+            "red",
+            "green",
+            "blue",
+            "blue",
+            "blue"
+        ]
+    },
+    "bank": [
+        "blue",
+        "blue",
+        "blue",
+        "red",
+        "white",
+        "yellow"
+    ],
+    "cards": [],
+    "scores": []
+}

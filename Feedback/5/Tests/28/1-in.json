@@ -1,0 +1,8 @@
+[[["red"],["yellow"]]]
+{"bank":["yellow","yellow","yellow","yellow","red","red","red","red"],"cards":[
+    {"face?":false,"pebbles":["red","red","red","red","red"]},
+    {"face?":false,"pebbles":["red","red","red","red","red"]},
+    {"face?":true,"pebbles":["yellow","yellow","yellow","yellow","yellow"]}
+    ],"active":{"score":0,"wallet":["red","red","red","yellow","yellow"]},
+    "scores":[10]}
+"purchase-points"

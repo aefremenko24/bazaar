@@ -1,0 +1,14 @@
+{"path": "/", "subs": ["alpha","beta","gamma"]}
+{"path": "/alpha/epsilon", "subs": ["zeta"]}
+{"path": "/alpha", "subs": ["delta"]}
+"query"
+{"path": "/alpha", "subs": ["beta"]}
+"query"
+{"path": "/alpha/beta", "size": 23}
+"query"
+{"path": "/alpha", "subs": ["beta"]}
+"query"
+{"path": "/alpha", "subs": ["beta","eta"]}
+"query"
+{"path": "/alpha/psi", "subs": ["omega","chi"]}
+"query"

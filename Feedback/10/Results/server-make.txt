@@ -1,0 +1,20 @@
+Setting up the Python environment...
+pip3.9 install -r requirements.txt --user
+Requirement already satisfied: pillow==10.4.0 in /home/camoy/.local/lib/python3.9/site-packages (from -r requirements.txt (line 1)) (10.4.0)
+Requirement already satisfied: ijson==3.3.0 in /home/camoy/.local/lib/python3.9/site-packages (from -r requirements.txt (line 2)) (3.3.0)
+Requirement already satisfied: pydantic==2.9.1 in /home/camoy/.local/lib/python3.9/site-packages (from -r requirements.txt (line 3)) (2.9.1)
+Requirement already satisfied: typing_extensions==4.12.2 in /home/camoy/.local/lib/python3.9/site-packages (from -r requirements.txt (line 4)) (4.12.2)
+Requirement already satisfied: pydantic_core==2.23.3 in /home/camoy/.local/lib/python3.9/site-packages (from -r requirements.txt (line 5)) (2.23.3)
+Requirement already satisfied: annotated-types==0.7.0 in /home/camoy/.local/lib/python3.9/site-packages (from -r requirements.txt (line 6)) (0.7.0)
+Requirement already satisfied: pygame==2.6.0 in /home/camoy/.local/lib/python3.9/site-packages (from -r requirements.txt (line 7)) (2.6.0)
+Requirement already satisfied: twisted==24.10.0 in /home/camoy/.local/lib/python3.9/site-packages (from -r requirements.txt (line 8)) (24.10.0)
+Requirement already satisfied: hyperlink>=17.1.1 in /home/camoy/.local/lib/python3.9/site-packages (from twisted==24.10.0->-r requirements.txt (line 8)) (21.0.0)
+Requirement already satisfied: automat>=24.8.0 in /home/camoy/.local/lib/python3.9/site-packages (from twisted==24.10.0->-r requirements.txt (line 8)) (24.8.1)
+Requirement already satisfied: zope-interface>=5 in /home/camoy/.local/lib/python3.9/site-packages (from twisted==24.10.0->-r requirements.txt (line 8)) (7.1.1)
+Requirement already satisfied: attrs>=22.2.0 in /home/camoy/.local/lib/python3.9/site-packages (from twisted==24.10.0->-r requirements.txt (line 8)) (24.2.0)
+Requirement already satisfied: constantly>=15.1 in /home/camoy/.local/lib/python3.9/site-packages (from twisted==24.10.0->-r requirements.txt (line 8)) (23.10.4)
+Requirement already satisfied: incremental>=24.7.0 in /home/camoy/.local/lib/python3.9/site-packages (from twisted==24.10.0->-r requirements.txt (line 8)) (24.7.2)
+Requirement already satisfied: idna>=2.5 in /home/camoy/.local/lib/python3.9/site-packages (from hyperlink>=17.1.1->twisted==24.10.0->-r requirements.txt (line 8)) (3.10)
+Requirement already satisfied: setuptools in /home/camoy/.local/lib/python3.9/site-packages (from zope-interface>=5->twisted==24.10.0->-r requirements.txt (line 8)) (75.6.0)
+Requirement already satisfied: tomli; python_version < "3.11" in /home/camoy/.local/lib/python3.9/site-packages (from incremental>=24.7.0->twisted==24.10.0->-r requirements.txt (line 8)) (2.1.0)
+rm -rf __pycache__ *.pyc

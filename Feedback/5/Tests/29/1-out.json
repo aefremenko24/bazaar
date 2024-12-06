@@ -1,0 +1,29 @@
+[
+    [
+      ["green"],
+      ["blue","blue","blue","blue"]
+    ],
+    [
+      ["blue"],
+      ["red"]
+    ],
+    [
+      ["red"],
+      ["green","blue","white","white"]
+    ]
+]
+
+[
+    {
+        "pebbles": ["blue", "blue", "blue", "blue", "green"],
+        "face?": false
+    },
+    {
+        "pebbles": ["red", "red", "red", "red", "white"],
+        "face?": false
+    }
+]
+
+4
+
+["white"]

@@ -1,0 +1,7 @@
+[ [ [ "yellow" ], [ "blue", "green" ] ], [ [ "yellow" ], [ "blue", "green" ] ] ]
+[ {
+  "pebbles" : [ "blue", "blue", "green", "green", "yellow" ],
+  "face?" : true
+} ]
+5
+[ "yellow" ]

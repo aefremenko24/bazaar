@@ -1,0 +1,187 @@
+[
+    [
+        [
+            "green",
+            "green",
+            "blue",
+            "white"
+        ],
+        [
+            "red",
+            "red"
+        ]
+    ],
+    [
+        [
+            "yellow"
+        ],
+        [
+            "green",
+            "white"
+        ]
+    ],
+    [
+        [
+            "blue"
+        ],
+        [
+            "red"
+        ]
+    ],
+    [
+        [
+            "green",
+            "blue",
+            "red"
+        ],
+        [
+            "white",
+            "yellow",
+            "yellow"
+        ]
+    ],
+    [
+        [
+            "red"
+        ],
+        [
+            "green"
+        ]
+    ],
+    [
+        [
+            "blue",
+            "blue"
+        ],
+        [
+            "yellow"
+        ]
+    ],
+    [
+        [
+            "blue",
+            "blue",
+            "green"
+        ],
+        [
+            "white",
+            "red"
+        ]
+    ],
+    [
+        [
+            "green"
+        ],
+        [
+            "red",
+            "white"
+        ]
+    ],
+    [
+        [
+            "blue",
+            "red",
+            "green"
+        ],
+        [
+            "yellow"
+        ]
+    ],
+    [
+        [
+            "green",
+            "white",
+            "red"
+        ],
+        [
+            "yellow",
+            "yellow"
+        ]
+    ]
+]
+{
+    "bank": [
+        "red",
+        "red",
+        "red",
+        "red",
+        "red",
+        "blue",
+        "blue",
+        "blue",
+        "blue",
+        "blue",
+        "green",
+        "green",
+        "green",
+        "green",
+        "green",
+        "white",
+        "white",
+        "white",
+        "white",
+        "white",
+        "yellow",
+        "yellow",
+        "yellow",
+        "yellow",
+        "yellow"
+    ],
+    "cards": [
+        {
+            "pebbles": [
+                "red",
+                "red",
+                "red",
+                "white",
+                "white"
+            ],
+            "face?": true
+        },
+        {
+            "pebbles": [
+                "red",
+                "green",
+                "green",
+                "blue",
+                "white"
+            ],
+            "face?": false
+        },
+        {
+            "pebbles": [
+                "red",
+                "red",
+                "green",
+                "white",
+                "white"
+            ],
+            "face?": true
+        },
+        {
+            "pebbles": [
+                "red",
+                "green",
+                "green",
+                "blue",
+                "white"
+            ],
+            "face?": false
+        }
+    ],
+    "active": {
+        "wallet": [
+            "red",
+            "blue",
+            "white",
+            "green",
+            "red"
+        ],
+        "score": 15
+    },
+    "scores": [
+        10,
+        12
+    ]
+}
+"purchase-size"

@@ -1,0 +1,18 @@
+"query"
+{"path": "/among/us", "subs": ["kinda", "sus"]}
+"query"
+{"path": "/fileone", "size": 28}
+"query"
+{"path": "/filetwo", "size": 2}
+"query"
+{"path": "/", "subs": ["hello", "world"]}
+"query"
+{"path": "/hello", "subs": ["qwerty", "uiop"]}
+"query"
+{"path": "/hello/uiop/untitleddocumenttwentyfinalfinal", "size": 999}
+"query"
+{"path": "/", "subs": ["fileone"]}
+"query"
+"quit"
+{"path": "/filenone", "size": 78}
+"query"

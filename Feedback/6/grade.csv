@@ -1,0 +1,11 @@
+description,score,max
+code inspection,185,215
+bonus,30,0
+"[0-3]-{in,out}.json exists",5,5
+xrules exists,5,5
+Bazaar/Referee/referee.pp exists,5,5
+Bazaar/Planning/game-observer.md exists,5,5
+Bazaar/Player/mechanism.pp exists,5,5
+student tests passes instructor executable,40,40
+student executable passes instructor tests,0,40
+total,280,320

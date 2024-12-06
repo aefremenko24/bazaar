@@ -1,0 +1,10 @@
+{"foo":{}}
+{"bar":{},"boo":{},"foo":{}}
+{"bar":{},"boo":{},"foo":10}
+{"bar":{},"boo":{},"foo":10}
+{"bar":{},"boo":{},"foo":15}
+{"bar":{},"boo":{},"foo":15}
+{"bar":{"foo":{}},"boo":{},"foo":15}
+{"bar":{"foo":{"bar":{}}},"boo":{},"foo":15}
+{"bar":{"foo":{"bar":{}, "foo":3}},"boo":{},"foo":15}
+

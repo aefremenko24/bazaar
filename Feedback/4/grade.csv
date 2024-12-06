@@ -1,0 +1,10 @@
+description,score,max
+code inspection,70,185
+Bazaar/Player/strategy.pp exists,5,5
+student executable passes instructor tests,0,15
+xturn exists,5,5
+bonus,15,15
+Bazaar/Planning/player-protocol.md exists,5,5
+"[0-2]-{in,out}.json exists",5,5
+student tests passes instructor executable,15,15
+total,120,235

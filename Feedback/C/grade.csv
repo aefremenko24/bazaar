@@ -1,0 +1,6 @@
+description,score,max
+student test passes instructor executable,0,5
+student executable passes instructor test,7,15
+code inspection,25,25
+bonus,0,0
+total,32,45

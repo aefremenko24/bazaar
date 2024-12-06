@@ -1,0 +1,211 @@
+(testing /course/cs4500f24/tas/camoy/repos/educational-lizards/./6/xrules)
+(testing /course/cs4500f24/tas/camoy/repos/6/???/Tests/0-in.json /course/cs4500f24/tas/camoy/repos/6/???/Tests/0-out.json)
+Traceback (most recent call last):
+  File "/course/cs4500f24/tas/camoy/repos/educational-lizards/./6/xrules", line 11, in <module>
+    from Bazaar.Common.turn_state import TurnState
+  File "/course/cs4500f24/tas/camoy/repos/educational-lizards/Bazaar/Common/turn_state.py", line 5, in <module>
+    from Bazaar.Referee.player_state import PlayerState
+  File "/course/cs4500f24/tas/camoy/repos/educational-lizards/Bazaar/Referee/player_state.py", line 7, in <module>
+    from Bazaar.Player.mechanism import Mechanism
+  File "/course/cs4500f24/tas/camoy/repos/educational-lizards/Bazaar/Player/mechanism.py", line 8, in <module>
+    from Bazaar.Common.turn_state import TurnState
+ImportError: cannot import name 'TurnState' from partially initialized module 'Bazaar.Common.turn_state' (most likely due to a circular import) (/course/cs4500f24/tas/camoy/repos/educational-lizards/Bazaar/Common/turn_state.py)
+---------------------------------
+(*** score 0)
+(*** on)
+'(((("red") ("white")) (("yellow") ("white")))
+  ((("red") ("white")) (("yellow") ("white")))
+  #hasheq((active
+           .
+           #hasheq((score . 0)
+                   (wallet
+                    .
+                    ("red"
+                     "yellow"
+                     "green"
+                     "red"
+                     "green"
+                     "red"
+                     "green"
+                     "blue"
+                     "blue"
+                     "blue"
+                     "blue"
+                     "green"
+                     "green"
+                     "green"))))
+          (bank
+           .
+           ("blue"
+            "blue"
+            "blue"
+            "blue"
+            "blue"
+            "green"
+            "green"
+            "green"
+            "green"
+            "green"
+            "red"
+            "red"
+            "blue"
+            "red"
+            "red"
+            "red"
+            "white"
+            "white"
+            "green"
+            "red"
+            "green"))
+          (cards
+           .
+           (#hasheq((face? . #t) (pebbles . ("red" "red" "blue" "red" "red")))
+            #hasheq((face? . #f)
+                    (pebbles . ("green" "green" "green" "green" "green")))))
+          (scores . ())))
+(*** expected)
+'(("red"
+   "red"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "white"
+   "white")
+  ("red"
+   "red"
+   "red"
+   "red"
+   "red"
+   "red"
+   "red"
+   "yellow"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+(testing /course/cs4500f24/tas/camoy/repos/6/???/Tests/1-in.json /course/cs4500f24/tas/camoy/repos/6/???/Tests/1-out.json)
+Traceback (most recent call last):
+  File "/course/cs4500f24/tas/camoy/repos/educational-lizards/./6/xrules", line 11, in <module>
+    from Bazaar.Common.turn_state import TurnState
+  File "/course/cs4500f24/tas/camoy/repos/educational-lizards/Bazaar/Common/turn_state.py", line 5, in <module>
+    from Bazaar.Referee.player_state import PlayerState
+  File "/course/cs4500f24/tas/camoy/repos/educational-lizards/Bazaar/Referee/player_state.py", line 7, in <module>
+    from Bazaar.Player.mechanism import Mechanism
+  File "/course/cs4500f24/tas/camoy/repos/educational-lizards/Bazaar/Player/mechanism.py", line 8, in <module>
+    from Bazaar.Common.turn_state import TurnState
+ImportError: cannot import name 'TurnState' from partially initialized module 'Bazaar.Common.turn_state' (most likely due to a circular import) (/course/cs4500f24/tas/camoy/repos/educational-lizards/Bazaar/Common/turn_state.py)
+---------------------------------
+(*** score 0)
+(*** on)
+'(((("red") ("white")))
+  ((("red") ("white")))
+  #hasheq((active
+           .
+           #hasheq((score . 0)
+                   (wallet
+                    .
+                    ("red"
+                     "yellow"
+                     "green"
+                     "red"
+                     "green"
+                     "red"
+                     "green"
+                     "blue"
+                     "blue"
+                     "blue"
+                     "blue"
+                     "green"
+                     "green"
+                     "green"))))
+          (bank
+           .
+           ("blue"
+            "blue"
+            "blue"
+            "blue"
+            "blue"
+            "green"
+            "green"
+            "green"
+            "green"
+            "green"
+            "red"
+            "red"
+            "blue"
+            "red"
+            "red"
+            "red"
+            "white"
+            "white"
+            "green"
+            "red"
+            "green"))
+          (cards
+           .
+           (#hasheq((face? . #t) (pebbles . ("red" "red" "blue" "red" "red")))
+            #hasheq((face? . #f)
+                    (pebbles . ("green" "green" "green" "green" "green")))))
+          (scores . ())))
+(*** expected)
+'(("red"
+   "red"
+   "yellow"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "white")
+  ("red"
+   "red"
+   "red"
+   "red"
+   "red"
+   "red"
+   "red"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "blue"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "green"
+   "white"))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+()
+((passed 0) (total 2) (partial-score 0))

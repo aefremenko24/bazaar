@@ -1,0 +1,81 @@
+(testing /course/cs4500f24/tas/camoy/repos/educational-lizards/./4/xturn)
+(testing /course/cs4500f24/tas/camoy/repos/4/???/Tests/0-in.json /course/cs4500f24/tas/camoy/repos/4/???/Tests/0-out.json)
+Traceback (most recent call last):
+  File "/course/cs4500f24/tas/camoy/repos/educational-lizards/./4/xturn", line 9, in <module>
+    from Bazaar.Referee.game_state import GameState
+  File "/course/cs4500f24/tas/camoy/repos/educational-lizards/Bazaar/Referee/game_state.py", line 5, in <module>
+    from pydantic import BaseModel
+ModuleNotFoundError: No module named 'pydantic'
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((bank . ("red" "white" "blue" "green" "yellow"))
+          (cards
+           .
+           (#hasheq((face? . #t)
+                    (pebbles . ("red" "yellow" "green" "yellow" "white")))))
+          (players
+           .
+           (#hasheq((score
+                     .
+                     9999999999999999988935498273598701004597577818920492838394)
+                    (wallet . ("red" "red" "red")))))
+          (visibles
+           .
+           (#hasheq((face? . #f)
+                    (pebbles . ("red" "blue" "green" "red" "white")))))))
+(*** expected)
+'(#hasheq((active
+           .
+           #hasheq((score
+                    .
+                    9999999999999999988935498273598701004597577818920492838394)
+                   (wallet . ("red" "red" "red"))))
+          (bank . ("red" "white" "blue" "green" "yellow"))
+          (cards
+           .
+           (#hasheq((face? . #f)
+                    (pebbles . ("red" "blue" "green" "red" "white")))))
+          (scores . ())))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+(testing /course/cs4500f24/tas/camoy/repos/4/???/Tests/1-in.json /course/cs4500f24/tas/camoy/repos/4/???/Tests/1-out.json)
+Traceback (most recent call last):
+  File "/course/cs4500f24/tas/camoy/repos/educational-lizards/./4/xturn", line 9, in <module>
+    from Bazaar.Referee.game_state import GameState
+  File "/course/cs4500f24/tas/camoy/repos/educational-lizards/Bazaar/Referee/game_state.py", line 5, in <module>
+    from pydantic import BaseModel
+ModuleNotFoundError: No module named 'pydantic'
+---------------------------------
+(*** score 0)
+(*** on)
+'(#hasheq((bank . ())
+          (cards
+           .
+           (#hasheq((face? . #t)
+                    (pebbles . ("red" "yellow" "green" "yellow" "white")))))
+          (players
+           .
+           (#hasheq((score
+                     .
+                     9999999999999999988935498273598701004597577818920492838394)
+                    (wallet . ("red" "red" "red")))))
+          (visibles . ())))
+(*** expected)
+'(#hasheq((active
+           .
+           #hasheq((score
+                    .
+                    9999999999999999988935498273598701004597577818920492838394)
+                   (wallet . ("red" "red" "red"))))
+          (bank . ())
+          (cards . ())
+          (scores . ())))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+()
+((passed 0) (total 2) (partial-score 0))

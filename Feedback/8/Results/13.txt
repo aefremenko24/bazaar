@@ -1,0 +1,28 @@
+(testing /course/cs4500f24/tas/camoy/repos/ultimate-beetles/./8/xgames-blogic)
+(testing /course/cs4500f24/tas/camoy/repos/8/???/Tests/0-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/0-out.json)
+(testing /course/cs4500f24/tas/camoy/repos/8/???/Tests/8-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/8-out.json)
+(testing /course/cs4500f24/tas/camoy/repos/8/???/Tests/9-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/9-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'((("a" "purchase-points" "request-pebble-or-trades")
+   ("b" "purchase-points" "a cheat" "wallet-cannot-buy-card"))
+  ()
+  #hasheq((bank . ("blue" "red"))
+          (cards . ())
+          (players
+           .
+           (#hasheq((score . 0) (wallet . ("yellow")))
+            #hasheq((score . 0) (wallet . ("blue" "blue")))))
+          (visibles
+           .
+           (#hasheq((face? . #f)
+                    (pebbles . ("red" "blue" "blue" "red" "yellow")))))))
+(*** expected)
+'(() ("a" "b"))
+(*** but received)
+'(((plain fast with-newline plain-unicode) (("a" "b") ())))
+
+
+((/course/cs4500f24/tas/camoy/repos/8/???/Tests/0-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/0-out.json) (/course/cs4500f24/tas/camoy/repos/8/???/Tests/8-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/8-out.json))
+((passed 2) (total 3) (partial-score 2))

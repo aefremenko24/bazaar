@@ -1,0 +1,8 @@
+[
+  [["blue"], ["red"]],
+  [["blue"], ["red"]],
+  [["blue"], ["red"]]
+]
+[{"pebbles": ["red", "red", "red", "red", "blue"], "face?": true}]
+8
+[]

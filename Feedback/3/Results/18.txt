@@ -1,0 +1,56 @@
+(testing /course/cs4500f24/tas/camoy/repos/ultimate-penguins/./3/xeq)
+(testing /course/cs4500f24/tas/camoy/repos/3/???/Tests/0-in.json /course/cs4500f24/tas/camoy/repos/3/???/Tests/0-out.json)
+Traceback (most recent call last):
+  File "/course/cs4500f24/tas/camoy/repos/ultimate-penguins/./3/xeq", line 10, in <module>
+    from Bazaar.Common.player import Player
+  File "/course/cs4500f24/tas/camoy/repos/ultimate-penguins/Bazaar/Common/player.py", line 26, in <module>
+    from Bazaar.Common.utils import (
+  File "/course/cs4500f24/tas/camoy/repos/ultimate-penguins/Bazaar/Common/utils.py", line 25, in <module>
+    import pygame
+ModuleNotFoundError: No module named 'pygame'
+---------------------------------
+(*** score 0)
+(*** on)
+'(((("blue") ("red" "white"))
+   (("yellow" "blue" "red" "green") ("white" "white"))
+   (("red" "green" "white" "yellow") ("blue"))
+   (("blue") ("yellow"))
+   (("red" "red" "white") ("yellow" "yellow" "green"))
+   (("yellow") ("white" "green" "green"))
+   (("red") ("green"))
+   (("white" "blue" "green") ("red" "yellow"))
+   (("yellow" "white" "red" "red") ("blue" "blue" "green"))
+   (("yellow" "red" "green") ("blue")))
+  ("red" "red" "blue")
+  ("red" "red" "red" "white" "blue" "green" "yellow"))
+(*** expected)
+'(((("blue") ("red" "white"))
+   (("blue") ("red" "green" "white" "yellow"))
+   (("blue") ("yellow"))
+   (("red") ("green"))
+   (("blue") ("yellow" "red" "green"))))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+(testing /course/cs4500f24/tas/camoy/repos/3/???/Tests/2-in.json /course/cs4500f24/tas/camoy/repos/3/???/Tests/2-out.json)
+Traceback (most recent call last):
+  File "/course/cs4500f24/tas/camoy/repos/ultimate-penguins/./3/xeq", line 10, in <module>
+    from Bazaar.Common.player import Player
+  File "/course/cs4500f24/tas/camoy/repos/ultimate-penguins/Bazaar/Common/player.py", line 26, in <module>
+    from Bazaar.Common.utils import (
+  File "/course/cs4500f24/tas/camoy/repos/ultimate-penguins/Bazaar/Common/utils.py", line 25, in <module>
+    import pygame
+ModuleNotFoundError: No module named 'pygame'
+---------------------------------
+(*** score 0)
+(*** on)
+'(((("red" "blue") ("white" "green"))) ("red" "blue") ("white" "green"))
+(*** expected)
+'(((("red" "blue") ("white" "green"))))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+()
+((passed 0) (total 2) (partial-score 0))

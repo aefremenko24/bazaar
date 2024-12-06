@@ -1,0 +1,23 @@
+{                                                                                                                                                                                                         "path"                  :
+"/testone"
+,
+  "size"
+  : 10}
+"query"
+{"path" : "/", "subs" : ["testone"]}
+"query"
+{"path" : "/", "subs" : ["testtwo"]}
+"query"
+{"path" : "/testone", "subs" : ["testthree", "testfour"]}
+{"path" : "/testtwo/testthree/testfive", "size" : 10}
+{"path" : "/testtwo/testfour/testsix", "size" : 100}
+"query"
+{"path" : "/testtwo", "size" : 100}
+{"path" : "/", "subs" : ["testthree"]}
+{"path" : "/testthree/testfour", "size" : 100}
+"query"
+{"path" : "/testthree", "subs" : ["testfour", "testfive"]}
+"query"
+{"path" : "/testthree", "subs" : ["testfive", "testsix"]}
+"query"
+{"path" : "testthree", "subs" : ["testfive", "testsix"]}

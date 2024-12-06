@@ -1,0 +1,48 @@
+[
+	[
+		["yellow", "blue"],
+		["green", "red", "red"]
+	],
+	[
+        ["yellow", "white"],
+        ["red"]
+    ],
+	[
+        ["green"],
+        ["yellow"]
+    ],
+	[
+		["white", "blue", "blue"],
+		["red", "yellow", "yellow"]
+	],
+	[
+        ["yellow", "green", "white", "green"],
+        ["blue"]
+    ],
+	[
+        ["green", "white"],
+        ["red"]
+    ],
+	[
+		["green", "white", "green", "yellow"],
+		["red", "blue", "blue", "blue"]
+	],
+	[
+		["green", "blue", "white", "white"],
+		["red", "yellow"]
+	],
+	[
+		["yellow", "red", "green", "green"],
+		["white", "blue", "blue", "blue"]
+	],
+	[
+        ["green"],
+        ["red"]
+    ]
+]
+[
+    "red", "yellow", "yellow", "green", "blue", "blue", "blue", "blue", "white", "green"
+]
+[
+    "red", "blue", "blue", "blue"
+]

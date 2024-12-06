@@ -1,0 +1,9 @@
+{
+    "path": "/",
+    "subs": [
+        "foo",
+        "bar",
+        "baz"
+    ]
+}
+"query"

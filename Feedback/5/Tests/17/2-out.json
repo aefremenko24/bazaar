@@ -1,0 +1,28 @@
+[[["green"], ["red", "red", "red", "red"]]]
+
+[
+   {
+      "pebbles":[
+         "red",
+         "white",
+         "blue",
+         "blue",
+         "green"
+      ],
+      "face?":true
+   },
+   {
+      "pebbles":[
+         "red",
+         "red",
+         "red",
+         "red",
+         "red"
+      ],
+      "face?":true
+   }
+]
+
+7
+
+["blue"]

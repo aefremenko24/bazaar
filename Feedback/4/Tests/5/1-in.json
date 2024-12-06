@@ -1,0 +1,124 @@
+{
+    "bank": [
+        "red",
+        "red",
+        "blue",
+        "blue",
+        "green",
+        "white"
+    ],
+    "visibles": [
+        {
+            "pebbles": [
+                "red",
+                "blue",
+                "red",
+                "yellow",
+                "yellow"
+            ],
+            "face?": true
+        },
+        {
+            "pebbles": [
+                "green",
+                "blue",
+                "white",
+                "white",
+                "yellow"
+            ],
+            "face?": false
+        },
+        {
+            "pebbles": [
+                "green",
+                "green",
+                "yellow",
+                "white",
+                "white"
+            ],
+            "face?": true
+        },
+        {
+            "pebbles": [
+                "yellow",
+                "green",
+                "green",
+                "green",
+                "red"
+            ],
+            "face?": true
+        }
+    ],
+    "cards": [
+        {
+            "pebbles": [
+                "white",
+                "white",
+                "white",
+                "white",
+                "white"
+            ],
+            "face?": true
+        },
+        {
+            "pebbles": [
+                "white",
+                "white",
+                "white",
+                "white",
+                "white"
+            ],
+            "face?": true
+        },
+        {
+            "pebbles": [
+                "white",
+                "white",
+                "white",
+                "white",
+                "white"
+            ],
+            "face?": true
+        },
+        {
+            "pebbles": [
+                "white",
+                "white",
+                "white",
+                "white",
+                "white"
+            ],
+            "face?": true
+        },
+        {
+            "pebbles": [
+                "white",
+                "white",
+                "white",
+                "white",
+                "white"
+            ],
+            "face?": true
+        }
+    ],
+    "players": [
+        {
+            "wallet": [
+                "red",
+                "red",
+                "red",
+                "white",
+                "white",
+                "green",
+                "green",
+                "green",
+                "blue",
+                "blue",
+                "blue",
+                "blue",
+                "blue"
+            ],
+            "score": 14
+        }
+    ]
+}

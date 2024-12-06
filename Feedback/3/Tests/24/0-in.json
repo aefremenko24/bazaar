@@ -1,0 +1,14 @@
+[
+    [["red", "yellow"],                     ["blue", "blue", "white"]],
+    [["red", "red", "blue", "white"],       ["yellow"]],
+    [["green"],                             ["yellow", "yellow"]],
+    [["white", "yellow", "yellow"],         ["blue"]],
+    [["white", "green"],                    ["red", "blue", "blue", "yellow"]],
+    [["white", "white", "green", "yellow"], ["blue"]],
+    [["red"],                               ["blue", "green", "green", "yellow"]],
+    [["blue", "blue"],                      ["yellow", "yellow", "yellow", "yellow"]],
+    [["red", "red"],                        ["yellow"]],
+    [["white", "yellow"],                   ["red", "blue", "green"]]
+]
+["red", "blue", "blue", "yellow"]
+["blue", "green", "yellow", "green", "white", "blue", "red"]

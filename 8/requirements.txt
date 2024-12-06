@@ -1,0 +1,7 @@
+pillow==10.4.0
+ijson==3.3.0
+pydantic==2.9.1
+typing_extensions==4.12.2
+pydantic_core==2.23.3
+annotated-types==0.7.0
+pygame==2.6.0

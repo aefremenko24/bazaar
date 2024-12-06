@@ -1,0 +1,21 @@
+[
+  [["blue"],["red"]],
+  [["yellow"],["white", "white", "blue", "blue"]]
+]
+[
+  [["red"],["blue"]]
+]
+{
+  "bank": ["blue"],
+  "cards": [
+    {
+      "pebbles": ["white", "white", "blue", "blue", "blue"],
+      "face?": true
+    }
+  ],
+  "active": {
+      "wallet": ["red"],
+      "score": 10
+  },
+  "scores": [1, 10, 4]
+}

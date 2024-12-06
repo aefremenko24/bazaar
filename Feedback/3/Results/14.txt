@@ -1,0 +1,64 @@
+(testing /course/cs4500f24/tas/camoy/repos/ultimate-penguins/./3/xeq)
+(testing /course/cs4500f24/tas/camoy/repos/3/???/Tests/0-in.json /course/cs4500f24/tas/camoy/repos/3/???/Tests/0-out.json)
+Traceback (most recent call last):
+  File "/course/cs4500f24/tas/camoy/repos/ultimate-penguins/./3/xeq", line 10, in <module>
+    from Bazaar.Common.player import Player
+  File "/course/cs4500f24/tas/camoy/repos/ultimate-penguins/Bazaar/Common/player.py", line 26, in <module>
+    from Bazaar.Common.utils import (
+  File "/course/cs4500f24/tas/camoy/repos/ultimate-penguins/Bazaar/Common/utils.py", line 25, in <module>
+    import pygame
+ModuleNotFoundError: No module named 'pygame'
+---------------------------------
+(*** score 0)
+(*** on)
+'(((("blue") ("red"))) ("green" "white") ("yellow"))
+(*** expected)
+'(())
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+(testing /course/cs4500f24/tas/camoy/repos/3/???/Tests/1-in.json /course/cs4500f24/tas/camoy/repos/3/???/Tests/1-out.json)
+Traceback (most recent call last):
+  File "/course/cs4500f24/tas/camoy/repos/ultimate-penguins/./3/xeq", line 10, in <module>
+    from Bazaar.Common.player import Player
+  File "/course/cs4500f24/tas/camoy/repos/ultimate-penguins/Bazaar/Common/player.py", line 26, in <module>
+    from Bazaar.Common.utils import (
+  File "/course/cs4500f24/tas/camoy/repos/ultimate-penguins/Bazaar/Common/utils.py", line 25, in <module>
+    import pygame
+ModuleNotFoundError: No module named 'pygame'
+---------------------------------
+(*** score 0)
+(*** on)
+'(((("blue" "white") ("red")))
+  ("green" "white" "blue")
+  ("yellow" "red" "yellow" "green"))
+(*** expected)
+'(((("blue" "white") ("red"))))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+(testing /course/cs4500f24/tas/camoy/repos/3/???/Tests/2-in.json /course/cs4500f24/tas/camoy/repos/3/???/Tests/2-out.json)
+Traceback (most recent call last):
+  File "/course/cs4500f24/tas/camoy/repos/ultimate-penguins/./3/xeq", line 10, in <module>
+    from Bazaar.Common.player import Player
+  File "/course/cs4500f24/tas/camoy/repos/ultimate-penguins/Bazaar/Common/player.py", line 26, in <module>
+    from Bazaar.Common.utils import (
+  File "/course/cs4500f24/tas/camoy/repos/ultimate-penguins/Bazaar/Common/utils.py", line 25, in <module>
+    import pygame
+ModuleNotFoundError: No module named 'pygame'
+---------------------------------
+(*** score 0)
+(*** on)
+'(((("blue") ("red")) (("green" "white") ("yellow" "blue" "yellow")))
+  ("green" "white")
+  ("yellow" "yellow" "blue" "red"))
+(*** expected)
+'(((("green" "white") ("yellow" "blue" "yellow"))))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+()
+((passed 0) (total 3) (partial-score 0))

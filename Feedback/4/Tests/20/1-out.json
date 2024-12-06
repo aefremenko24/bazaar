@@ -1,0 +1,28 @@
+{
+  "bank": [
+    "blue",
+    "blue",
+    "green",
+    "green",
+    "green"
+  ],
+  "cards": [
+    {
+      "pebbles": [
+        "blue",
+        "blue",
+        "green",
+        "green",
+        "green"
+      ],
+      "face?": false
+    }
+  ],
+  "active": {
+    "wallet": [
+      "red"
+    ],
+    "score": 12
+  },
+  "scores": []
+}

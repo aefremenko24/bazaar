@@ -1,0 +1,5 @@
+{"path": "/", "subs": ["a", "b"]}
+{"path": "/a/newfile", "size": 3}
+"query"
+{"path": "/", "subs": ["a", "c"]}
+"query"

@@ -1,0 +1,15 @@
+[
+    [
+        ["white", "white", "white"],
+        ["yellow", "red"]
+    ],
+    [
+        ["red", "red"],
+        ["white", "white"]
+    ]
+]
+
+["white", "white", "white", "red", "green"]
+
+["red", "red", "yellow"]
+

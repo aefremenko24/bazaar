@@ -1,0 +1,8 @@
+description,score,max
+xjson exists,5,5
+xjson executable,5,5
+student tests exist,0,5
+student test passes instructor executable,0,5
+student executable passes instructor test,0,15
+bonus,0,0
+total,10,35

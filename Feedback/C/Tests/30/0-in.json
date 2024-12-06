@@ -1,0 +1,16 @@
+{"path":"/","subs":["foo","bar"]}
+{"path":"/bar/foodotrkt","size":3}
+"query"
+{"path":"/","subs":["hi"]}
+{"path":"/bar/foodotrkt","size":4}
+"query"
+{"path":"/hi","size":4}
+"query"
+{"path":"/","subs":["hi"]}
+"query"
+{"path":"/bar","subs":["apple"]}
+"query"
+{"path":"/bar/apple/orange","size":4}
+"query"
+"quit"
+{"path":"/bar/foodotrkt","size":5}
